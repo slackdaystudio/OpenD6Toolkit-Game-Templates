@@ -1,0 +1,1397 @@
+{
+  "name": "Post Apocalyptic",
+  "attributeMin": 1,
+  "attributeMax": 5,
+  "move": 10,
+  "characterPoints": 5,
+  "fatePoints": 1,
+  "attributes": [
+    {
+      "name": "Reflexes",
+      "isExtranormal": false,
+      "description": "Measure of balance, limberness, quickness, and full-body motor abilities.",
+      "skills": [
+        {
+          "name": "Acrobatics",
+          "description": "Performing feats of gymnastics, extraordinary balance, and dance (and related performance arts), as well as break falls. Useful for running obstacle courses or doing water ballet."
+        },
+        {
+          "name": "Brawling",
+          "description": "Competence in unarmed combat."
+        },
+        {
+          "name": "Climbing",
+          "description": "Scaling various surfaces."
+        },
+        {
+          "name": "Contortion",
+          "description": "Escaping from otherwise secure physical bonds by twisting, writhing, and contorting the body."
+        },
+        {
+          "name": "Dodge",
+          "description": "Slipping out of danger’s way, whether avoiding an attack or a sprung booby trap."
+        },
+        {
+          "name": "Flying",
+          "description": "Maneuvering under one’s own power (such as with wings) or in null gravity."
+        },
+        {
+          "name": "Jumping",
+          "description": "Leaping over obstacles."
+        },
+        {
+          "name": "Melee Combat",
+          "description": "Wielding hand-to-hand weapons."
+        },
+        {
+          "name": "Riding",
+          "description": "Controlling and riding domesticated mounts."
+        },
+        {
+          "name": "Sneak",
+          "description": "Moving silently and avoiding detection, whether through shadows or crowds."
+        }
+      ]
+    },
+    {
+      "name": "Coordination",
+      "isExtranormal": false,
+      "description": "Measure of hand-eye coordination and fine motor abilities.",
+      "skills": [
+        {
+          "name": "Lockpicking",
+          "description": "Opening a mechanical (not electronic) lock or safe without possessing the key or combination, as well as disarming small mechanical traps."
+        },
+        {
+          "name": "Marksmanship",
+          "description": "Shooting guns of any type. Covers everything from small slugthrowers to vehicle-mounted rockets."
+        },
+        {
+          "name": "Missile Weapons",
+          "description": "Firing unpowered ranged weapons."
+        },
+        {
+          "name": "Piloting",
+          "description": "Operating any kind of vehicle or powered armor traveling on or through the ground, a liquid medium, the air, or space."
+        },
+        {
+          "name": "Sleight of Hand",
+          "description": "Nimbleness with the fingers and misdirection, including picking pockets, palming items, and stage magic."
+        },
+        {
+          "name": "Throwing",
+          "description": "Hitting a target accurately with a thrown item, including grenades, stones, and knives. Also used for catching thrown items. (Using or modifying grenades as explosives for special destructive effects requires the demolitions skill.)"
+        }
+      ]
+    },
+    {
+      "name": "Physique",
+      "isExtranormal": false,
+      "description": "Measure of physical power and ability to resist damage.",
+      "skills": [
+        {
+          "name": "Lifting",
+          "description": "Moving or lifting heavy objects, as well as representing the ability to inflict additional damage with strength-powered weapons."
+        },
+        {
+          "name": "Running",
+          "description": "Moving quickly on the ground while avoiding obstacles and keeping from stumbling."
+        },
+        {
+          "name": "Stamina",
+          "description": "Physical endurance and resistance to pain, disease, and poison."
+        },
+        {
+          "name": "Swimming",
+          "description": "Moving and surviving in a liquid medium."
+        }
+      ]
+    },
+    {
+      "name": "Knowledge",
+      "isExtranormal": false,
+      "description": "Measure of strength of memory and ability to learn.",
+      "skills": [
+        {
+          "name": "Business",
+          "description": "Comprehension of business practices and the monetary value of goods and opportunities, including the ability to determine how to make money with another skill the character has. Business can complement charm, con, and persuasion when haggling over prices for goods and services being bought or sold."
+        },
+        {
+          "name": "Demolitions",
+          "description": "Using corrosives and explosives to achieve particular destructive effects."
+        },
+        {
+          "name": "Forgery",
+          "description": "Creating and noticing false or altered documentation in various media (paper, electronic, plastic card, etc.), including counterfeiting, though tasks may require other skills to help detect or make the forgery."
+        },
+        {
+          "name": "Languages",
+          "description": "Familiarity with and ability to use various forms of communication, including written, spoken, and nonverbal. Characters may choose one “native” language in which they have written and spoken fluency. Additional languages in which a character has proficiency can be represented by specializations of this skill."
+        },
+        {
+          "name": "Medicine",
+          "description": "Using first aid techniques to treat injuries, as well as an understanding and application of medical procedures, including diagnosing illnesses and performing surgery."
+        },
+        {
+          "name": "Navigation",
+          "description": "Determining the correct course using external reference points, such as stars, maps, or landmarks, as well as creating maps."
+        },
+        {
+          "name": "Scholar",
+          "description": "This skill represents knowledge and/or education in areas not covered under any other skill (such as chemistry, mathematics, archeology, interior design, etc.). This may be restricted to a specific field (represented by specializations) or a general knowledge of a wide range of subjects. It is used to remember details, rumors, tales, legends, theories, important people, and the like, as appropriate for the subject in question. However, the broader the category, the fewer the details that can be recalled. It covers what the character himself can recall. Having another skill as a specialization of the scholar skill means that the character knows the theories and history behind the skill but can’t actually use it. It can be useful with investigation to narrow a search for information."
+        },
+        {
+          "name": "Security",
+          "description": "Installing, altering, and bypassing electronic security and surveillance systems."
+        },
+        {
+          "name": "Tech",
+          "description": "Using and designing (not making) complex mechanical or electronic equipment, such as programming and operating computers and manipulating communication devices."
+        }
+      ]
+    },
+    {
+      "name": "Perception",
+      "isExtranormal": false,
+      "description": "Measure of mental quickness and attention to detail.",
+      "skills": [
+        {
+          "name": "Artist",
+          "description": "Making works of art, like paintings, photographs, and music or literary compositions."
+        },
+        {
+          "name": "Gambling",
+          "description": "Playing and cheating at games of strategy and luck."
+        },
+        {
+          "name": "Hide",
+          "description": "Concealing objects, both on oneself and using camouflage."
+        },
+        {
+          "name": "Investigation",
+          "description": "Gathering information, researching topics, analyzing data, and piecing together clues."
+        },
+        {
+          "name": "Know-how",
+          "description": "Ability to figure out how to perform an action in which the character does not have experience, as well as a catch-all skill encompassing areas not covered by other skills (such as basic, not fancy, sewing or cooking)."
+        },
+        {
+          "name": "Repair",
+          "description": "Creating, fixing, or modifying gadgets, weapons, armor, and vehicles."
+        },
+        {
+          "name": "Search",
+          "description": "Spotting hidden objects or people, reconnoitering, lipreading, or eavesdropping on or watching another person.streetwise: Finding information, goods, and contacts in an urban environment, particularly through criminal organizations, black markets, and other illicit operations. Also useful for determining possible motives and methods of criminals."
+        },
+        {
+          "name": "Survival",
+          "description": "Surviving in wilderness environments."
+        },
+        {
+          "name": "Tracking",
+          "description": "Following the trail of another person, animal, or creature, or keeping after a moving target without being noticed."
+        }
+      ]
+    },
+    {
+      "name": "Presence",
+      "isExtranormal": false,
+      "description": "Measure of emotional strength, physical attractiveness, and personality.",
+      "skills": [
+        {
+          "name": "Animal Handling",
+          "description": "Controlling animals and making them perform tricks and follow commands."
+        },
+        {
+          "name": "Charm",
+          "description": "Using friendliness, flattery, or seduction to influence someone else. Also useful in business transactions, putting on performances (such as singing, acting, or storytelling), and situations involving etiquette."
+        },
+        {
+          "name": "Command",
+          "description": "Effectively ordering and coordinating others in team situations."
+        },
+        {
+          "name": "Con",
+          "description": "Bluffing, lying, tricking, or deceiving others, as well as verbal evasiveness, misdirection, and blustering. Also useful in putting on acting performances."
+        },
+        {
+          "name": "Disguise",
+          "description": "Altering features or clothing to be unrecognizable or to look like someone else. Also useful in acting performances."
+        },
+        {
+          "name": "Intimidation",
+          "description": "Using physical presence, verbal threats, taunts, torture, or fear to influence others or get information out of them."
+        },
+        {
+          "name": "Persuasion",
+          "description": "Influencing others or getting information out of them through bribery, honest discussion, debate, diplomacy, or speeches. Also useful in negotiations, business transactions, and put-ting on performances (such as singing, acting, or storytelling)."
+        },
+        {
+          "name": "Willpower",
+          "description": "Ability to withstand stress, temptation, other people’s interaction attempts, mental attacks, and pain. The Game Master may allow a specialization in a specific faith tradition or belief system to enhance many, though not all, applications of willpower."
+        }
+      ]
+    },
+    {
+      "name": "Psionics",
+      "isExtranormal": true,
+      "description": "Magic is the ability to manipulate the paranormal forces of the universe for extraordinary effects.",
+      "skills": [
+        {
+          "name": "Astral Projection",
+          "description": "The ability to leave one’s body."
+        },
+        {
+          "name": "Empathy",
+          "description": "The ability to sense emotions."
+        },
+        {
+          "name": "Far-sensing",
+          "description": "The ability to use one’s senses at a distance."
+        },
+        {
+          "name": "Healing",
+          "description": "The ability to heal injuries with the mind."
+        },
+        {
+          "name": "Medium",
+          "description": "The ability to speak with the spirits of the dead."
+        },
+        {
+          "name": "Protection",
+          "description": "The ability to psychically defend against injury."
+        },
+        {
+          "name": "Psychometry",
+          "description": "The ability to sense information about a person, place, or event by looking at an object connected to it."
+        },
+        {
+          "name": "Strike",
+          "description": "The ability to psychically cause injury."
+        },
+        {
+          "name": "Telekinesis",
+          "description": "The ability to move things with the mind."
+        },
+        {
+          "name": "Telepathy",
+          "description": "The ability to read thoughts."
+        }
+      ]
+    }
+  ],
+  "specializations": [],
+  "advantages": [
+    {
+      "id": 100,
+      "name": "Authority",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The level of the advantage is based on the character’s rank, duties, and power in his local jurisdiction. An Authority (R1) advantage might belong to someone who, because of circumstance, does not have a lot of opportunity to use his authority or someone who is very low in rank.\n\nLaw Enforcement is one version of this advantage that gives adventurers some measure of abilities associated with being a deputized agent of the law. Authority: Law Enforcement (R1) means the character can carry a ﬁrearm and has limited authority to enforce the law. Private investigators, bounty hunters, and bail bondsmen would need this advantage.\n\nRestrictions/Notes: It is not necessary to have the Authority: Law Enforcement advantage to own a ﬁrearm in those countries that allow ordinary citizens to own them. However, if owning a gun is illegal in a country and limited to deputized oﬃcials, then this version of the advantage would be necessary.\n\nRemember, too, that outside of the character’s jurisdiction or permit limits, this advantage may have little or no value."
+    },
+    {
+      "id": 200,
+      "name": "Authority",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Same as Authority (R1), but the character has more influence, possibly commanding a small number of troops or being in charge of a small company or town. With Authority: Law Enforcement (R2), the character is actually a law enforcement officer and is allowed to make full arrests and reasonable search and seizures (as dictated by planetary laws).\n\nRestrictions/Notes: See Authority (R1) for more information."
+    },
+    {
+      "id": 300,
+      "name": "Authority",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Same as Authority (R1), except that the character has a great deal of power and influence. The head of a large company or someone whose authority is simply never questioned would have this Advantage. With Authority: Law Enforcement (R3), the character may enforce the law on multiple planets in a system.\n\nRestrictions/Notes: Higher levels of Authority indicate a wider sphere of influence, such as multiple systems, a single galaxy, or time. Otherwise, see Authority (R1) for more information. Character Options "
+    },
+    {
+      "id": 400,
+      "name": "Contacts",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character “knows somebody” or a group of somebodies who will generally help out the character if he makes a decent appeal or sufficiently compensates the contact. This level of contact only sticks around for a limited amount of time (part of an adventure or maybe throughout a short adventure).\n\nThe character might know a “group” with a wider range of influence (but less power) that will help out, again, for a modest fee or under the right circumstances. The influence might not be as direct, but it is easier to come by. For example, there might be clubs or organizations that provide certain services for travelers — navigation coordinates to common systems, accommodation reservations, emergency transportation, and so on — for a small membership fee. You have to call them or go to their offices, and they won’t do much about that maniac with the blaster who is chasing you, but they can be of immense help under the right circumstances.\n\nRestrictions/Notes: Contacts should not automatically help the character, but they should be reasonable in their negotiations. Multiple contacts of various ranks may be selected and they may be stacked. For example, a certain person might be a Contact (R1) in most circumstances, but he could be a Contact (R2) or even a Contact (R3) in the right place — for example, a mercenary might help out for a fee versus normal foes, but when fighting his “hereditary enemies,” he might be almost invincible and eager to help.\n\nRemember that contacts are gamemaster characters. They should be created and played rationally. If a player refuses to roleplay or takes advantage of contacts, he should be penalized when trying to use them (and possibly lose them). There should also be a reason in the character’s story why he has these contacts."
+    },
+    {
+      "id": 500,
+      "name": "Contacts",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This Advantage is identical to Contacts (R1), except the contact is more powerful, more influential, easier to get hold of, willing to do more favors, or affects the game on a larger scale.\n\nIf the contact is supposed to be a large group, it now has much greater influence over a wider area. For instance, instead of belonging to a travel club, the character might have a government agency to help him out occasionally.\n\nRestrictions/Notes: Under no circumstances should any contact, regardless of rank number, make roleplaying and thinking superfluous.\n\nContacts are totally under the control of the gamemaster. Even powerful and influential contacts from this rank should be kept under a tight rein. See Contacts (R1) for more information."
+    },
+    {
+      "id": 600,
+      "name": "Contacts",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The contact or contacts chosen should be nearly supernormal, supernatural, or uncanny in origin or far reaching in scope. For example, a character’s Contact (R3) might be an “spacefarer’s guild” with multi-system branch offices and an impressive ability to get its members the oddest things.\n\nWork with the gamemaster to come up with some interesting contacts.\n\nIt might be a group of psionic monks who can be called upon for “mental aid” — or maybe a really complete technical library.\n\nRestrictions/Notes: Again, as with Contacts (R1) and (R2), don’t let the contacts take over the game — and don’t let the player’s character abuse them. Contacts are gamemaster controlled, but they will usually only be brought into play at the character’s request."
+    },
+    {
+      "id": 700,
+      "name": "Contacts",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "There is some sort of strange “force” that “watches over” and occasionally helps the character. In many ways, this Advantage is not as useful in most adventure situations as the other versions of Contacts, but it can have dramatic effects on occasion.\n\nSome examples of this include a particularly powerful gamemaster character who steps in occasionally to help the character when he’s in trouble. Or, a large governmental agency might, for some reason, want to step in and aid the character at times.\n\nGenerally, the character can get minor assistance - as could be gotten from Contacts (R1) or Contacts (R2) - on a fairly regular basis - and under the same sort of circumstances as having lower versions of Contacts - but “the big stuff” only happens when the gamemaster thinks it appropriate. The character might get killed before the Contacts (R4) intervenes - maybe the character just wasn’t doing something the Contact felt was important to it - but, most likely, assistance come, though perhaps at the last minute.\n\nRestrictions/Notes: Players’ characters should take this option only if they want to take Disadvantages relating to it. For example, if a character in a space opera campaign wants to have a group of super scientists who like him and will supply him with substantial aid on a regular basis (like a space ranger who gets outfitted with new equipment at the beginning of every adventure and who can call for more during certain times in the adventure), then he should take Disadvantages that relate to that. The character could be a member of an organization (see the Disadvantage Employed), or he must do reciprocating favors for the providing company (see the Disadvantage Price), or there are equally powerful people who want to eliminate him because of his contacts (see the Disadvantage Enemy).\n\nIf the character does not want to take extensive Disadvantages relating to the contact, then Contacts (R4) should be unpredictable and not always useful. For example, the company might provide the character with plenty of extraordinary equipment, but it might not always be what the character needs or might not work correctly all of the time."
+    },
+    {
+      "id": 800,
+      "name": "Cultures",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This is another advantage that can be utilized in more than one way. The ﬁrst way is the simplest. The character has knowledge of a particular (usually unusual) culture that he can use to his beneﬁt when among people of that culture. This acts both as a knowledge (scholar) type skill and as a bonus (usually +1) to interaction in that culture.\n\nExample: A character in a pulp ﬁction game setting might have Cultures (R1) pertaining to a certain Amazonian tribe. When the character goes on an adventure in the Amazon, chances are good he will get help from that tribe in his activities instead of being attacked as a stranger or trespasser and ending up with his head on a pike.\n\nThe second way Cultures (R1) can be used is a little more wide-sweeping. The character has a knack for drawing parallels between unknown/unusual and known cultures. For example, the character might be able to ﬁgure out why certain religious taboos exist in a society she’s just met. These should just be bursts of culture-related intuition that the Game Master supplies occasionally — the player can only remind the Game Master her character has this ability and hope the Game Master feels the situation is appropriate.\n\nRestrictions/Notes: A character with Cultures (R1) has about the level of knowledge of a frequent tourist — no more. Unless the character has skills like streetwise, languages, and other supporting skills, he acts as if he has visited the culture and learned a decent amount about their ways, but he is deﬁnitely an outsider. This advantage may be taken more than once for different cultures.\n\nIn the second example, the character has absolutely no control over her ability and only gains very limited insights — though sometimes at critical moments. The character cannot “call upon” this knowledge. This version of the advantage may not be taken more than once, but it may be combined with the other type of Cultures at any rank.\n\nIn both cases, the character’s background must reﬂect the “special insight” he has into the culture or cultural trends."
+    },
+    {
+      "id": 900,
+      "name": "Cultures",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This option can be used pretty much like Cultures (R1), only on a larger scale. Instead of choosing a small, unusual culture, the character might choose an “alien” culture (one totally different from his own) and gain an understanding of it comparable to the understanding in Cultures (R1). Or, he could choose to learn more about a relatively small cultural group (to the point where the character would be accepted as one who has spent a lot of time with the people). The last option, the sweeping cultural understanding, would also be much more in-depth. The character would be able to call on cultural parallels much more often and the Game Master should give more information.\n\nRestrictions/Notes: The same as for Cultures (R1), but the character has about the level of knowledge of an outsider who has lived in the culture for a while. Either that, or he would get more useful information on alien cultures or “sweeping” cultural examinations."
+    },
+    {
+      "id": 1000,
+      "name": "Cultures",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is either a native of an unusual culture or has the knowledge and the respect as if she were one. A person who has lived a signiﬁcant portion of her life in a culture and has that sort of understanding of it would have Cultures (R3) — only the character is actually a part of the game setting’s dominant culture as well.\n\nIf an alien culture can be, and is, selected, then the character has an extreme familiarity with it. Alternatively, the character might be something of a cultural anthropologist — the character can observe a particular culture for a brief time and have a very good (Game Master-controlled) chance of understanding the culture on a respectable level.\n\nRestrictions/Notes: As with Cultures (R1) and (R2), the character must choose what sort of cultural familiarity to have. Also, there must be a compelling reason the character has this familiarity or understanding. Finally, if the character chooses to be a “native” of a particular culture, she should probably have to learn language: (the culture’s major language) at least +1D."
+    },
+    {
+      "id": 1100,
+      "name": "Cultures",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This selection should be taken only if the game setting employs the use of alien cultures (those not totally understood by the dominant culture). The character understands the alien culture and can interact within it — he is still an alien to it, but he is treated better than any other outsider (most likely).\n\nExample: In a game setting where “aliens live among us,” the character is a Human member of secret society that keeps the aliens hidden. But, because of something in his background history, he can interact with certain types of aliens and he can understand their ways. This doesn’t mean he’s friends with them, but he has a better chance of interacting with them, ﬁguring them out, and outsmarting their “alien logic” than other characters.\n\nRestrictions/Notes: The character should have related disadvantages, and there has to be some extensive background description telling why the character has this advantage. Otherwise, see the other entries regarding Cultures."
+    },
+    {
+      "id": 1200,
+      "name": "Equipment",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character gains a piece of equipment he would not normally have because it is too expensive or “unavailable,” but only if it is allowable under the game setting. For instance, a character could start the game with a small laser pistol, but not a mini rocket launcher — unless the gamemaster runs a lawless setting, as the latter is quite powerful, it should be generally unavailable for civilian use and even characters with military backgrounds should have to take the Equipment (R2) Advantage to get it. Alternatively, the character could take lots of little pieces of equipment instead — more than what the gamemaster would normally allow. Basically, equipment totaling in cost not more than about 1,000 credits (or a price difficulty of Moderate) would fit in this category.\n\nRestrictions/Notes: Typically, as long as the character is not careless with it, Equipment taken with any rank of this Advantage is replaceable, unless the Burn-out Disadvantage is included with it. Equipment (R1) may be selected more than once or in combination with higher ranks of the Equipment Advantage with gamemaster approval."
+    },
+    {
+      "id": 1300,
+      "name": "Equipment",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character gains a piece of equipment that would be difficult to obtain because of expense or availability. Weapons that are usually out of reach of the normal citizen are available. Similarly, equipment totaling in cost not more than several thousand credits (or a price difficulty of Difficult) would probably be okay. In game settings that have rare alien technology, objects of fairly low power probably could be obtained using this Advantage.\n\nRestrictions/Notes: See Equipment (R1) for more information.\n\nEquipment (R2) may be selected more than once or in combination with higher ranks of the Equipment Advantage with gamemaster approval."
+    },
+    {
+      "id": 1400,
+      "name": "Equipment",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Items of equipment that are normally unavailable to just about anyone can be picked up using this Advantage. Any one item on any equipment chart can be selected, or the gamemaster can make up a “special” item that has unusual effects or Special Abilities. Alternatively, they can just be really expensive or virtually unavailable items.\n\nEquipment totaling a few tens of thousands of dollars (or a price difficulty of Heroic) falls under this category.\n\nRestrictions/Notes: The gamemaster should watch this Advantage carefully. It can only be selected once at character creation though the Rank 1 and Rank 2 versions can also be selected — but it can still unbalance a beginning character. Generally, things that can be taken away fairly easily — like energyswords, military hardware, super-science gadgets, and other related equipment — would be suitably appropriate for characters with minimal experience."
+    },
+    {
+      "id": 1500,
+      "name": "Equipment",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Really bizarre and, most likely, powerful equipment is open to the character — but only one such piece or a collection of small, related pieces. For very powerful items, no one else can use the equipment without making some sort of exhaustive skill total, and it can probably not be repaired or duplicated. “Special effects” equipment fits into this category.\n\nThe equipment could be a weapon more powerful than most personal weapons in the game setting. Or it could be a Metaphysics manipulation that could not normally be used by the character or anyone else in the world at its relatively low difficulty. Or it could be a collection of gadgets and gizmos that can perform many different mundane tasks — but how, nobody knows.\n\nRestrictions/Notes: The character should have Disadvantages related to the equipment. Maybe Enemies want to steal it, or it has an Advantage Flaw so it doesn’t work all the time — or the same way every time. In addition, the equipment should not make the character so powerful that opponents fall before him. In game mechanic terms, the equipment should be a just slightly more powerful or more useful item than what is available normally. The more powerful the item, the more Disadvantages and restrictions should be related to it.\n\nExample: A player might choose to give her character an average blaster and increase the damage score by two points. As this is a modest adjustment, her gamemaster also allows the gun to never need reloading."
+    },
+    {
+      "id": 1600,
+      "name": "Fame",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character, for some reason, is fairly well known. The extent of the character’s fame should be determined by the game setting. In a global game setting, the character has moderate recognition value in a particular region. In a smaller game setting (like post-nuclear war settings restricted to one planet), the character might have more dense penetration of recognition, but with less wide-sweeping effects (for instance, everyone in town knows who they are, but no one from more than a few days’ travel away has ever heard of them).\n\nWhenever the gamemaster thinks the character might be recognized (and the Fame Advantage would come into play), the gamemaster should roll 3D. If the result is 15 or higher, the character is recognized. Otherwise, he will have to do something “special” and appropriate for why he’s famous to be recognized (and gain the benefits of recognition).\n\nIf a character with Fame (R1) is recognized, he should gain small perks, like being seated in a restaurant early, avoiding small legal hassles (like routine customs checks), or just be treated generally better (perhaps the character gets a couple of bonus points to persuasion, con, and command attempts). Like most roleplayed Advantages, the gamemaster should decide on the results.\n\nRestrictions/Notes: Fame may be chosen multiple times as long as the player defines how each Fame is different. For example, a character might have Fame (R1) in regards to his fighting abilities, but another type of Fame pertaining to his intelligence or some other ability."
+    },
+    {
+      "id": 1700,
+      "name": "Fame",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is very well known. In a global setting, the character would probably be recognized in most fairly civilized cultures and almost definitely in her home culture. The gamemaster should roll 3D and, on a 15 or higher, a person from another culture recognizes the person and react (usually favorably). In the character’s own culture, this reaction comes on an 8 or more. If the character draws attention to herself in her own culture (identifies herself ), then the reaction will most likely be automatic (gamemaster’s option).\n\nRestrictions/Notes: At this level of fame, the character should be treated like a famous author, an occasional holo-vid star, or a reasonably recognizable sports figure. Some gamemaster characters will be immune to this fame, but most will have some sort of (generally positive) reaction.\n\nOtherwise, see Fame (R1) for more information."
+    },
+    {
+      "id": 1800,
+      "name": "Fame",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "There is a pretty good chance anyone in the game setting (unless it is a multi-world setting) will recognize the character (or what the character is) fairly easily. The base die total needed is 8, and it can be modified by circumstance. The character has the status of a holo-vid star, a famous politician, or a top-ranked sports hero.\n\nRestrictions/Notes: As with Fame (R1) and Fame (R2) — certain people just won’t be impressed. In addition, characters with Fame (R3) should almost always have to take the Disadvantage Infamy at least Rank 1 — no matter how nice, talented, or generally well-liked a person is, there’s always somebody out there who wishes them harm."
+    },
+    {
+      "id": 1900,
+      "name": "Familiar",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "You have a small, intelligent alien creature for a companion that is somehow linked to you. The familiar has a move of 18, can speak your language (or perhaps communicate telepathically), and has 60 starting creation points.  Every rank beyond the first increases the starting creation points of the familiar by 5."
+    },
+    {
+      "id": 2000,
+      "name": "Patron",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The odds are that most players’ characters are not independently wealthy. But they might have access to wealth in the form of patrons.\n\nIf the characters are treasure hunters, patrons might include museums, universities, private philanthropists, news agencies, megacorporations, or even retired adventurers.\n\nPatron (R1) means the character has a backer who will fund one expedition, with all proceeds going to the patron. All of the costs (room, board, travel, expenses) are covered by the patron, with the understanding that the player’s character is basically just a worker-forhire.\n\nAnything that the adventurer discovers or purchases becomes the property of the patron."
+    },
+    {
+      "id": 2100,
+      "name": "Patron",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "A Patron (R2) expects much less from those she backs. Though the character may receive less financial support, she gains a greater freedom of action.\n\nA news agency looking for hot stories is a common example of an organization qualifying for Patron (R2). They cover a character’s travel expenses and any legal fees in exchange for inspiring stories. Anything that the character finds on his own (like artifacts) remain his own."
+    },
+    {
+      "id": 2200,
+      "name": "Patron",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "A Patron (R3) gives a character a limited stipend and covers most expenses, then offers to purchase whatever the character recovers.\n\nWithout consistent results, the funding will be cut off."
+    },
+    {
+      "id": 2300,
+      "name": "Size",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is much larger or smaller than the average Human. For every rank in this advantage, the player receives +3 to his character’s scale modiﬁer (which starts at zero). The player must specify whether the character is bigger or littler than the average Human.\n\nRestrictions/Notes: Generally, the character’s weight is proportional for his height, but a disadvantage, such as Hindrance: Reduced Toughness, or a special ability, such as Hardiness, could be used to represent a very thin or very large character (respectively). Likewise, to reﬂect a longer stride, the character should have the Hypermovement special ability, while a shorter stride would get the Hindrance: Shorter Stride disadvantage."
+    },
+    {
+      "id": 2400,
+      "name": "Trademark Specialization",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This Advantage works a lot like a combination of the Skill Bonus Special Ability and Fame. The character excels at one very specific thing, and he is known for it. Choose any specialization that the character has (or would like to have in the future), and the character gains +2D to the roll when it is used. In addition, when the character uses it, at the gamemaster’s option, people acknowledge how “naturally good” the character is at the specialization, and this might produce interesting situations. Also, the character might be contacted or recognized by certain people because of how good he is at that one specialization.\n\nRestrictions/Notes: This character acts as if trained in the use of this skill. No character may have more than two Trademark Specializations."
+    },
+    {
+      "id": 2500,
+      "name": "Wealth",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character with this Advantage probably has an estate or a series of investments that will keep him comfortable for a good long time. Alternatively, the character could be minor nobility, have a large trust fund, or be married to the owner of a large corporation. This doesn’t mean the character can buy everything — he is still subject to the availability of items.\n\nFor each rank in this Advantage, the characters has 250,000 credits in readily available cash once per month. The accounts never have more than 250,000 credits times the number of ranks each month (fees and living expenses keep it to that level); the amount could be less by the end of the month. Additionally, adventure bonuses could temporarily raise the figure, though the character would have to purchase an additional rank of Wealth to make the increase permanent. Players in games using the Funds attribute gain +2 per rank to all such totals.\n\nRestrictions/Notes: Characters should select only one rank of Wealth, unless there is some reason they might have Wealth (R1) and another rank of Wealth in other circumstances. Also, this wealth does not always help and disappears if misused (and it should be a major concern to the character at times), but it should be there most of the time. Gamemasters will probably think of ways to work around wealth and players should play along — if you can throw money at every problem, then they aren’t that much fun to try to solve, are they? The most likely Disadvantage a character with Wealth would have is Devotion, such as “helping all those in need” or “righting all wrong doing.” Otherwise, there should be fairly extensive reasons why the character can’t use his wealth to resolve every situation — or hire somebody to do it for him (which is really the same thing)."
+    }
+  ],
+  "complications": [
+    {
+      "id": 100,
+      "name": "Achilles' Heel",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character has a particular serious weakness. It is not something that most other characters find especially dangerous or inconvenient, but the character suffers severe modifiers to difficulties or even damage when exposed to it. Some examples include:\n\nAllergy: The character is strongly affected by reasonably common things that she cannot always avoid. When exposed to the allergen, the character must generate a Moderate Physique or stamina total (as an action) or she takes 3D in damage. The character can resist the damage through applicable defenses, but she has to generate the stamina total as an action every round she is exposed to the allergen.\n\nAtmospheric Incompatibility: The character is sensitive to something in the normal atmosphere and must shield himself from it. Failure to do so causes him to take a -4 modifier to his damage resistance total or the character takes a +1 modifier to all difficulties (which increases by +1 per minute exposed) until the character is out of the harmful situation.\n\nExample: The high quantity of carbon monoxide produced by some combustion engines may poison a plant creature. When in the presence of these engines (such as when in a big city where these sorts of engines are used), the character must have an “air filter” on at all times.\n\nCultural Allergy: The same as above, but there is some social situation that causes the character to freeze (exposure to nudity, the sight of police, etc.) and lose all Critical Success rerolls until the condition is gone.\n\nEnvironmental Incompatibility: The character is sensitive to something in the environment: an extreme of temperature, the chemical content of rain water, etc. Exposure to this without the proper protection causes the character to take -4 modifier to his damage resistance total or the character takes a +1 modifier to all difficulties (which increases by +1 per minute exposed) until the character is out of the harmful situation.\n\nMetabolic Difference: The character needs more life support (typically food) than “normal” and begins to take damage after hours of malnutrition. For every hour after the specified time frame, the character’s damage resistance total is modified by -1, which cannot be recovered except by obtaining the additional life support — and making up for the skipped amounts. For food, the character eats the equivalent of twice as many meals per day as the average Human. For instance, the character must eat a meal every four hours or, every hour after the four are up, the character’s damage resistance total goes down.\n\nAs another example, three times per day, a different character may need to eat twice as much as a normal Human.\n\nNutritional Requirements: The character must ingest an element not commonly consumed by Humans (blood, dead Human flesh, etc.) to survive. Often, the character encounters prejudice because of this, and she certainly develops physical problems if she fails to consume this substance in a reasonable amount of time.\n\nRot: The character’s body is rotting. She periodically loses pieces of herself (such as fingers and toes) and must pause to fuse them back on (this is a simple action but takes a round to perform). The character suffers no damage from this, but it should inconvenience her. For instance, in combat, the character’s fingers might fall off, causing her to drop her weapon — this makes an excellent Critical Failure complication.\n\nVulnerability: A particular form of attack or interaction affects the character much more severely than other characters. For example, a character with a vulnerability to firearms might “freeze up” when he sees another character point a gun at him — making the other character +5 to hit him (most likely during the first round of combat only).\n\nAnother character might automatically apply +10 to the difficulty of any attempts to resist another character’s con attempts. (The less likely the situation is to occur, the greater the difficulty modifier.)\n\nRestrictions/Notes: The Achilles’ Heel (R3) should be very serious, but not “instant death” for the character. There should always exist some way to avoid it (not easily), or some chance that the character can counter it. The more creative the Achilles’ Heel (R3), and the more likely it affects the character, the less it actually should do. A character who is vulnerable to water (he probably has a phobia), for example, might “panic” and suffer +3 to the difficulty of all actions when exposed to a large body of water, +5 when in it, and +3 when wet. Or, the character might just take 3D in damage every time he gets a significant portion of his body wet."
+    },
+    {
+      "id": 200,
+      "name": "Achilles' Heel",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character’s weakness is even more severe than the Rank 3 version of this Disadvantage. Some examples include:\n\nAllergy: The same rules apply as for Allergy, save that the character cannot perform any actions except running away while exposed to the allergen.\n\nCultural Allergy: The same rules apply as for Cultural Allergy (R3), save that not only does the character lose all Critical Success rerolls if exposed to the specified social situations, she also is at +1 to all difficulties.\n\nAtmospheric or Environmental Incompatibility: The modifier to the damage resistance total goes up, or the condition is more likely to occur, or the modifier increases each round.\n\nRot: The character loses major parts of his body periodically due to rotting (such as limbs) and must pause to replace them. Doing so requires no skill total but does take three rounds to perform. The trigger that causes this to take effect should occur no less frequently than a Critical Failure during combat and interaction rounds.\n\nSymbiosis: The character is bound symbiotically to another, drawing strength or energy from her. Symbiosis can be either physical or mental.\n\nFor every 100 meters by which one character is separated from the other, the character loses one pip (cumulative) to either their physical attributes or their mental attributes. (Remember: three pips equal one die.) If the character’s symbiote is killed, the character loses 1D from the attributes affected until she can convince another character to willingly bond with her (the bonding process should be simple — like sharing blood — but willing participants must want it to happen). For an extra rank in this Disadvantage, the character is bound both mentally and physically to another, and loses from both sets of attributes if separated.\n\nFor the separation to equally affect the “host,” he must also have this version of the Achilles’ Heel Disadvantage.\n\nRestrictions/Notes: Additional ranks of the Achilles’ Heel Disadvantage indicate even more deadly situations. See Achilles’ Heel (R3) for other notes."
+    },
+    {
+      "id": 300,
+      "name": "Advantage Flaw",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This Disadvantage is linked to a particular Advantage or set of skills. Whenever the character uses it, there is some a chance for a negative modifier or roleplaying disadvantage. Here are some examples for certain Advantages:\n\nContacts: The Contact helps the character, but he is either “annoying” about it or a “hard bargainer.” Where a normal Contact would assist the character for an almost negligible fee, the Flawed Contact will haggle and nag until “rewarded.” Some reason should exist why the character would want to keep the contact happy.\n\nCultures: When the character gets hints or knowledge about a culture, he knows everything except some sort of critical piece of information.\n\nor, if the character has the “sweeping knowledge” of lots of cultures, his interpretations sometimes are almost totally wrong (gamemaster option). In order to make this Flaw work, the character should not find out about the error until it would be “interesting.”\n\nEquipment: In most cases, some sort of minor mechanical imperfection exists in the equipment that no normal means can fix. For equipment that requires a skill total, gamemasters could either add 3 to the difficulty of all actions using it, or, on a Critical Failure, the equipment either won’t work or malfunctions. For equipment that wouldn’t normally require a skill total, occasional side effects could happen or maybe it requires a periodic Moderate skill check of some kind to keep operating.\n\nSkills: If the character fails at the skill check with one of a set of three related skills, she can’t reroll Critical Successes either until the end of the scene or until she succeeds at the skill check.\n\nWealth or Funds: The character cannot access his wealth easily.\n\nEither it is tied up in red tape most of the time (especially if the character has most of the money invested), or he has to go somewhere to get it (such as having a fortune back East while adventuring in the Wild West), or someone else (reasonably friendly) has control over it and doesn’t always release it easily.\n\nRestrictions/Notes: In general, at Rank 1, a flaw should not debilitate a character or take away his Advantage on a regular basis — but it should make it a little less of a sure thing."
+    },
+    {
+      "id": 400,
+      "name": "Advantage Flaw",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This Disadvantage works in exactly the same manner as Advantage Flaw (R1), above, but with more serious results. If the Flaw came into play occasionally (like every time the character visited a desert), it now comes into play much more frequently (like when he is in any dry environment). If the Flaw made things a little more difficult, then the Flaw makes things a lot more difficult (the difficulty modifier doubles from the Rank 1 version).\n\nRestrictions/Notes: Having circumstances that effectively take away the complete benefit of the Advantage is certainly within the bounds of Advantage Flaw (R2), and those circumstances can occur reasonably often (no more than during one quarter of a normal adventure, however). They will force the player to roleplay and to think about ways to get around the Flaw or to try other options, rather than just relying on a particular Advantage, Special Ability, or skill set.\n\nExample: If a character has a set of skills with the Flaw that they only work at night — a Rank 2 Flaw if only about a quarter of the character’s normal adventuring occurs during the daytime — that would force the character to rely on other abilities and his wits during the daytime."
+    },
+    {
+      "id": 500,
+      "name": "Advantage Flaw",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This rank takes on some of the characteristics of an Achilles’ Heel (R3), but more in direct relationship to an Advantage, an attribute, or a large set of skills. The rules for the flaw are the same as for Advantage Flaw (R2), but the effects are even more severe. Not only does the character lose the benefits of the Advantage or attribute (or undergoes a condition that essentially negates it), but he also suffers an additional Disadvantage.\n\nExample: Your character has this Disadvantage attached to her Psionics attribute.  Every time she uses her psionic abilities, she taps into the general mood of the people around her. If the people near the psionic are feeling strong or negative emotions, the character gets a nasty headache, causing her to immediately loses the ability to use her mental powers and she can’t reroll any Critical Successes until the end of the scene.\n\nExample: A character has Equipment (R3) — a really powerful weapon. But, whenever the character suffers a Critical Failure using the weapon, the gun not only runs out of ammo, but the character experiences some sort of feedback at a moderate damage total (maybe the weapon’s normal damage minus a specific amount). The character then has to recharge the weapon (either through the use of a Price Disadvantage or by waiting until a major break in the adventure’s action, most likely).\n\nSome other examples:\n\nInfection: Under certain circumstances, the character passes along select abilities and characteristics to another character. The character has an infection score of Physique +2D. (This is not a skill and players may not raise except by taking additional ranks in this version of the Disadvantage.)\n\nThe gamemaster and the player should determine how the character spreads the infection. It could happen as the side effect of an attack, through physical contact, or through some other means. When the character performs the requisite action, he generates an infection total (which does not count as a separate action). The target generates a Physique or stamina total as well (which does not count as an action). If the character’s infection total exceeds (not equal to) the target’s Physique or stamina total, the target is infected.\n\nAn infection passes certain Special Abilities and Disadvantages to the target (specified by the player and the gamemaster when the player gives the character this Disadvantage). It is possible for the infection to pass more ranks in Disadvantages on than Special Abilities, but is not possible for it to pass more ranks in Special Abilities than Disadvantages.\n\nKeep in mind that the infected character may well hate the character responsible for his new state, so the infecting character may have gained an Enemy. In fact, there should exist some overwhelming reasons why this is actually bad for the infecting character — it is a Disadvantage, after all.\n\nGamemasters who do not feel that the Enemy Disadvantage is enough of a negative could also work in other sorts of Advantage Flaws as side effects of spreading the infection.\n\nFor an extra rank in the Advantage Flaw: Infection Disadvantage, the infection die code increases to Physique+4D.  Also, the penalties for infecting another characters should be more severe — maybe the character infected then knows things about the infection character that will give him an advantage over his enemy, or perhaps the infecting character temporarily loses abilities or attribute pips.\n\nMinor Stigma: There is something that the character cannot do without performing the “proper rituals” before or after (a fighter whose cult must “purify” him after killing someone; a psychic who cannot use Psionics without special equipment).\n\nStench: The character smells terrible due to one of his Advantages or just because he exists. Add 6  to the difficulty of all stealth attempts, as everyone can smell him coming. This also affects interaction attempts, giving them at least a +1 to the difficulty.\n\nRestrictions/Notes: Advantage Flaw (R3) takes a powerful Advantage and turns it into a worse-than-useless Disadvantage for a comparatively brief period of time. A single Advantage can have more than one Advantage Flaw, and, if the character wants, several Flaws, of various ranks, can link to one Advantage. See other ranks of Advantage Flaw for more information and examples."
+    },
+    {
+      "id": 600,
+      "name": "Age",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is a teenager or just past middle age. And, since this is a roleplaying game and not real life, he’ll stay that way. In general, characters who are “too young” often have to roleplay through episodes where they are not taken seriously, where they are ignored, and where they have less rights and control than older characters. Those who are “too old” get treated in much the same way — characters in their prime often defer to the character, but they also treat the character as if he were infirm or possibly senile.\n\nThe rules for Advantage Flaw (R2) are otherwise the same as Rank 1."
+    },
+    {
+      "id": 700,
+      "name": "Age",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The Disadvantage is the same, only more so. Instead of being a teenager, the character is a preteen child. Instead of being just past middle age, the character is old. The roleplaying situations are basically the same, but the effects are more dramatic.\n\nRestrictions/Notes: An old character receives +1 to the difficulty of physical actions (those that rely on Reflexes, Coordination, and Physique) that require unusual exertion (running, jumping, fighting, etc.). A young character adds 1 to the difficulty of all mental actions (those that use Intellect, Spirit, or Charm) when attempting to solve “adult” problems or interact with adults. Players should roleplay both versions true to type. Two Disadvantages suitable for association with this one include Reduced Attribute (especially for Age: Old) and Hindrance.\n\nCharacters may be “young” or “old” and not take this Disadvantage.\n\nOlder characters in good shape have no problems jogging, lifting, fighting, or whatever, and young, intelligent people can often interact and think just as well — if not better — than adults. This Disadvantage addresses those characters, young and old, who can’t keep up as easily."
+    },
+    {
+      "id": 800,
+      "name": "Bad Luck",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is exceptionally unlucky. This Disadvantage is under the gamemaster’s control most of the time. The easiest way to handle it is, whenever the player rolls the dice and a Critical Failure comes up, not only does it take away the highest die in the roll, but something bad happens. The gamemaster can choose from not allowing the player to reroll Critical Successes until the end of the scene, the character loses an action during the next round, or invoking some sort of strange, but not too terrible, “bad luck effect.”\n\nExample: A character with Bad Luck is running from a group of terrorists that he’s been fighting for some time. He tries to jump across an elevator shaft when the player rolls a Critical Failure on the dice. Well, the character probably failed in the jumping attempt (so he falls), but, instead of being able to grab for a cable or a lower ledge, the character’s belt gets caught on a hook. Now, the character has to free himself before the terrorists come around the corner and blow him away.\n\nRestrictions/Notes: A character may take Bad Luck (R2) if he already has the Good Luck or Great Luck Special Ability. The character might even, on occasion, use the benefits of the Good Luck or Great Luck Special Ability to get out of trouble or partially negate the effects of Bad Luck (R2) — that’s the way it works. Also, the gamemaster should remember that the character has Bad Luck (R2) — not the player. If the player gets into a consistent “streak” of rolling Critical Failures on the dice, then the gamemaster should start “skipping” the invocation of Bad Luck (R2) occasionally — more than three or four occurrences of Bad Luck (R2) during an adventure is a little much."
+    },
+    {
+      "id": 900,
+      "name": "Bad Luck",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The rules for this Disadvantage are the same as for Bad Luck (R2).\n\nHowever, a Critical Failure or a total equal to one more than the die code of the skill or attribute causes Bad Luck (R3) to activate. (For example, if the character has 5D in a skill and rolls a total of 6 on the dice — which is one more than the die code in the skill — the Disadvantage comes into play). The effects are exactly the same, only the gamemaster might make the setbacks more uncomfortable.\n\nRestrictions/Notes: See Bad Luck (R2)."
+    },
+    {
+      "id": 1000,
+      "name": "Bad Luck",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The same as Bad Luck (R2) and Bad Luck (R3), but the character suffers the effects on a Critical Failure or a total equal to or less than two more than the die code of the skill or attribute. (So, if the character with a skill of 5D rolls a 6 or 7, then the Disadvantage is activated.) The minimum effect is that the character loses her actions on the round and probably something disastrous happens.\n\nRestrictions/Notes: See Bad Luck (R2) and Bad Luck (R3). Since Bad Luck (R4) can have such devastating effects, the gamemaster might want to overrule occurrences of it. For example, if, during a standard scene of an adventure, a character is trying to persuade a shopkeeper to sell him an item at a better price, he might roll a low total on the dice. The gamemaster could have something disastrous happen — the shopkeeper keels over with a heart attack just as the chief of police walks in and the character is suddenly suspected of murder — but does it serve any purpose in the adventure? Possibly, but if it doesn’t, save it until later. Then, when the character is at the climax of the adventure and he doesn’t roll a disastrously low total — but the gamemaster feels a “dose of bad luck” would improve the story — he can use that as an excuse. Players should understand that Bad Luck is arbitrary and will often occur at the worst possible moment."
+    },
+    {
+      "id": 1100,
+      "name": "Burn Out",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "Under a certain set of proscribed circumstances, the Advantage goes away — permanently. The player and the gamemaster should work out the circumstances, with the following criteria:\n\n\t1. The Burn-out should have a chance of occurring about once or twice an adventure.\n\n\t2. The Burn-out should be something the character can avoid — but she might not want to avoid it.\n\n\t3. A logical reason for the Burn-out to occur should exist.\n\n\t4. Both the player and the gamemaster operate under the knowledge that the Burn-out will occur at some point.\n\nSome examples of when a Burn-out could occur include:\n\n\t• An opponent soundly defeats the character in an adventure.\n\n\t• The character completes a particular mission of great importance (this would probably only happen after several adventures — but the character wants to complete for some reason).\n\n\t• The character suffers a particular effect (she loses most of her Body Points or Wounds, she is the victim of a particular type of uncommon attack, etc.).\n\n\t• A character’s Advantage is somehow negated (a Contact who has a good chance of being killed, a piece of Equipment that someone is trying to steal or destroy, etc.).\n\nThis Disadvantage is worth a number of ranks equal to one-half (rounded up) of the Advantage with which it’s associated.\n\nRestrictions/Notes: Any Advantage could have the possibility of Burn-out. Just think of a logical (or, perhaps, supernatural) reason an Advantage would go away. There should exist a decent chance that it could go away, but the character should have some chance of avoiding that occurrence… for a while."
+    },
+    {
+      "id": 1200,
+      "name": "Cultural Unfamiliarity",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is not from the “mainstream” culture of the society he spends the most time in. The player should decide on the character’s native country, which is somewhere with a different culture than the one he is normally in. For instance, a character in a real world setting might hail from India but operate out of the United Kingdom. While the U.K. does not have any particular dislike of Indians, a few “cultural clashes” might happen occasionally. Bigots might get in the way of the character, and the character might not always “know” things about the setting that natives would automatically understand. The character is an outsider.\n\nRestrictions/Notes: At the worst, gamemasters can treat like Prejudice (R1), but, most often, the character is just unfamiliar with aspects of the mainstream. Characters cannot usually take this Disadvantage more than once."
+    },
+    {
+      "id": 1300,
+      "name": "Cultural Unfamiliarity",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is of a culture almost totally different from the “mainstream” he operates in. The character should constantly make mistakes and social gaffs. All attempts at streetwise or similar “getting around town” skills should have +6 to the difficulty (at least). In addition, the character should probably have trouble with the native language (he could even take the Disadvantage Language Problems).\n\nRestrictions/Notes: The rules are the same as for Cultural Unfamiliarity (R1)."
+    },
+    {
+      "id": 1400,
+      "name": "Cultural Unfamiliarity",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is, in all respects, an alien. Either he’s from another planet with a completely different culture, or whatever fits the game setting — he just doesn’t fit in (socially, and, most likely, physically).\n\nOtherwise, this Disadvantage works exactly the same way as the other rank versions.\n\nRestrictions/Notes: See Cultural Unfamiliarity (R1)."
+    },
+    {
+      "id": 1500,
+      "name": "Cultural Unfamiliarity",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is, in all respects, an alien. Either he’s from another planet with a completely different culture, or whatever fits the game setting — he just doesn’t fit in (socially, and, most likely, physically).\n\nOtherwise, this Disadvantage works exactly the same way as the other rank versions.\n\nRestrictions/Notes: See Cultural Unfamiliarity (R1)."
+    },
+    {
+      "id": 1600,
+      "name": "Debt",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character owes money, or something else valuable, to someone.\n\nIn most cases, some sort of lending institution or credit house exists, and the payments aren’t too arduous. The character just has a harder time getting credit and has to turn over a substantial amount of any profits he makes on an adventure to the lender.\n\nRestrictions/Notes: Players should take this Disadvantage if they intend for their characters to live up to it. The character should have a reason he doesn’t want to default on the debt, which the player works out beforehand. Also, Debt (any rank) with Enemy (any rank) can be an interesting combination — maybe the character is in deep to a loan shark or a manipulative and not entirely scrupulous lender.\n\nA character may have this Disadvantage with the Advantage Wealth (any rank), as long as there is some reason it can’t be just paid off. A character with Wealth (R3) (phenomenal resources) might be stuck in a contract where he has to turn over the profits of any adventure to someone, for example — he still has his wealth, but he has to cough up all the little neat things and rewards he gets at the end of the adventure (or the character has to persuade the lender/contract holder to let him keep them)."
+    },
+    {
+      "id": 1700,
+      "name": "Debt",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character owes a lot of money (or something else valuable) to someone dangerous, or the results of owing this debt are dangerous.\n\nFor example, the character could owe his life to a really strange old scientist, and, every time that person needs a favor (usually going off somewhere dangerous and doing something suicidal), the character has to drop everything and go.\n\nRestrictions/Notes: The rules are the same as for Debt (R1)."
+    },
+    {
+      "id": 1800,
+      "name": "Debt",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character owes almost everything to someone or something. In the case of worldly goods, the character must turn over nearly everything to the “lender” at the end of an adventure — the character must “borrow” these things back at the beginning of the next adventure.\n\nAnd it is up to the gamemaster what the “lender” gives back.\n\nIn most cases, this means the character is either Employed or under some similar sort of restriction.\n\nExample: Your character might belong to a particularly strict cult or religion. She has to tithe all worldly goods (or, at least, a large portion of worldly goods) to the cult after every adventure. If she does not, she would be cast out — a fate she would not enjoy — or even hunted and killed. At the beginning of each adventure, the character must beg and persuade whoever is in charge to let her have any goods she needs.\n\nRestrictions/Notes: Debt (R3) is so wide-sweeping that players may not usually combine in it with the lower versions or link to individual Advantages unless the player and the gamemaster are particularly inventive. A character with Debt (R3) might “owe” the possession of a Rank 3 or Rank 4 Advantage to a particular source (a character might have received Equipment from a supernatural source) and have to pay some sort of tithe (a sacrifice, all the money the character obtains, etc.) to get the use of the Advantage."
+    },
+    {
+      "id": 1900,
+      "name": "Devotion",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character feels compelled to take certain actions out of a love of code or perceived duty to something else. The character may, at times, do things he finds morally questionable in order to achieve a greater good. With Devotion (R1), the character’s beliefs do not come into play very often."
+    },
+    {
+      "id": 2000,
+      "name": "Devotion",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character with the Devotion (R2) Disadvantage believes very strongly in something and will attempt to persuade others of the rightness of his beliefs. His patriotism or loyalty to an ideal plays a role in his day-to-day life."
+    },
+    {
+      "id": 2100,
+      "name": "Devotion",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "At this rank, the character’s belief in the cause motivates almost all his actions. The character would willingly die for his belief."
+    },
+    {
+      "id": 2200,
+      "name": "Employed",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character has a job. Maybe the job relates to what the character wants to do during adventures, or maybe not. Regardless, the character wants to keep her job (or has to, for some reason), and she must take responsibility for missing work and fulfilling her obligations.\n\nRestrictions/Notes: The player and the gamemaster might have to work to roleplay this, but an occasional conflict should arise between what the character wants to do and what she has to do. The character might even have to keep some activities secret or lose her job.\n\nSome examples include special ops for a government or private organization, bodyguard, mercenary, reporter, writer, film maker, private investigator, bounty hunter, and police officer. The less freedom the character has in making decisions during the adventure and what she wants to do during her working hours (and perhaps even her spare time), the greater the rank in Employed."
+    },
+    {
+      "id": 2300,
+      "name": "Employed",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character works for someone, or something, that pretty much runs his life. When he goes on adventures, he either has to go through lots of red tape to get permission, or it’s because he was assigned the mission.\n\nAs a result, the character has little free will regarding what he does or how he does it, and he should come into conflict with his employer on occasion. Also, since the character is an employee, if he is on a mission, he usually has to turn over his share of the loot for corporate disposal he’ll get something out of it, certainly, but not a full share.\n\nRestrictions/Notes: The rules are the same as for Employed (R1).\n\nJust make sure that “the job” is fairly inconvenient for the character, but there are reasons he doesn’t quit. Maybe he has the Wealth Advantage only so long as he has the Employed (R2) Disadvantage — that would be a good way of tying in the Disadvantage."
+    },
+    {
+      "id": 2400,
+      "name": "Employed",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is, for all intents and purposes, a slave. This does not mean the character is poor or without means — just without free choice. The character does virtually everything because he must. For example, a character might be the head of a large corporation. But the only way things get done is for the character to do them or be there to oversee their getting done. Adventures only occur when they are in direct concordance with the interests of the “employer.” In all other ways, this Disadvantage is like its lower rank versions.\n\nRestrictions/Notes: See Employed under the other ranks."
+    },
+    {
+      "id": 2500,
+      "name": "Enemy",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "An individual or group has it in for the character. An Enemy who is a single person of power and influence no greater than the character might actually want the character dead. An Enemy (R1) of power and influence greater than the character simply wants to hassle the character for some reason. Maybe in the town the character operates, the law enforcement authorities have his name and picture on file — and they’ll use any excuse to run him in or hassle him because they think of him as a troublemaker. Or, perhaps, the character’s landlord throws everything out on the street if he’s one minute late with the rent, or the character’s boss always assigns him the most boring or most dangerous missions. The Enemy does not have to have a position in the character’s life — he can just be someone who, for some reason known to the gamemaster (and probably the player, but not always the character), has a grudge against the character.\n\nRestrictions/Notes: There is no reason a player can’t use this Disadvantage similarly to an Advantage Flaw or as a complement to other Disadvantages or even Advantages. Maybe a character’s Contact is sweet and helpful (a secretary in the Pentagon who tells the character a little more about the mission he’s been assigned), but someone who influences the Contact is an Enemy (the secretary’s boss who has been trying to seduce the secretary and resents the fact that the secretary likes the character better) and sometimes makes it hard for the contact to help. Enemy (R1) characters should either show up only occasionally (maybe once during an adventure), or they should be minor annoyances that can only be a real problem if the character doesn’t deal with them when they show up. Multiple Enemies of various ranks can be selected (just don’t go overboard)."
+    },
+    {
+      "id": 2600,
+      "name": "Enemy",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The rules are the same as for Enemy (R1), only the character is more powerful, more annoying, and/or more a part of the character’s life.\n\nRestrictions/Notes: It should be mentioned that killing the Enemy or running away should not get rid of the Disadvantage — at least not easily. At the very least, the character should have to go though a few adventures to “remove” the Enemy from his life. Usually, the character has to deal with the Enemy for quite a long time. Multiple Enemies can, of course, be selected."
+    },
+    {
+      "id": 2700,
+      "name": "Enemy",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Again, the rules are the same as for Enemy (R1) and Enemy (R2).\n\nMost likely, a group of people or a very powerful person who wishes to kill or otherwise remove the character from the game setting hounds the character. They often hurt people she knows and do vile deeds just because the character won’t like them. The Enemy (R3) should get involved in, directly or indirectly, most adventures the character goes on.\n\nJust about everything bad that happens to the character would please the Enemy — and he is probably responsible for a lot of them.\n\nRestrictions/Notes: Enemy (R3) is a very powerful, and very important, Disadvantage. Many beginning gamemasters might not want to go to the trouble of creating and constantly maintaining a villain or group of villains relating to the character — but others will enjoy it.\n\nTalk to your gamemaster about this option before you select it."
+    },
+    {
+      "id": 2800,
+      "name": "Hindrance",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has a minor physical or mental handicap that makes certain actions more difficult. The hindrance could be a permanent physical injury, a particular mental block regarding certain types of activities, a limitation innate to the character’s species, or the result of age.\n\nThe player and the gamemaster should work out some sort of affliction and then choose a group of related skills that get difficulty modifiers totaling +3. Some examples of sets of three skills getting a +1 modifier to the difficulty of each include:\n\nBad Knee: acrobatics, jumping, running\n\nRude: charm, con, persuasion\n\nTrick Shoulder: climbing, melee combat, throwing\n\nUncoordinated: acrobatics, melee combat, sleight of hand\n\nUnobservant: investigation, languages, search\n\nThe players may use this Disadvantage to restrict one form of their characters’ movement. A two-meter reduction in one form of movement (running, swimming, jumping, or climbing) is equivalent to a +1 difficulty modifier, so a player could take a small movement restriction along with difficulty modifiers to skills. The minimum movement rate for a character is one meter.\n\nCharacters with a native environment requiring an alternative means of movement other than walking (such as swimming or burrowing) may take one rank of Hindrance: A typical Move to represent the inability to walk or jump. Instead, the character uses his base Move to represent his base swimming or burrowing Move. Thus, a water-dwelling character without legs and with this type of Hindrance would have a swimming Move of 10 (instead of 5), could not walk, and would be limited in the kind of jumping he could perform.\n\nPlayers who wish to reduce their character’s damage resistance total (to represent a delicate physical nature) may take a -1 modifier to that total for each rank in this Disadvantage.\n\nRestrictions/Notes: Players may restrict specializations — with gamemaster approval. Three specializations that the gamemaster thinks the player might have to use reasonably often (like investigation: find clues or marksmanship: pistols) could substitute for one general skill.\n\nHindrance (R1) can be selected several times, as long as the gamemaster thinks it appropriate. Since it is very much the counterpart to the Skill Bonus Special Ability, additional restrictions and notes can be related to the ones found there.\n\nEach additional rank in Hindrance increases the total difficulty modifier by +3, which may affect the few skills in a Rank 1 group, or they can increase the number of skills covered by the Hindrance."
+    },
+    {
+      "id": 2900,
+      "name": "Illiterate",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "A character can be considered Illiterate for one of two reasons. The first is simply due to her inability to read. The other reason is if she did not speak the local language (an immigrant arriving in a new country or an explorer among natives, etc.). She may be an extremely intelligent and well-read person, but she has difficulty exhibiting that in her new country. She receives a +6 difficulty modifier in addition to any other modifiers when attempting to read or write anything."
+    },
+    {
+      "id": 3000,
+      "name": "Infamy",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is about as well known as a character with Fame (R1), but for different reasons. The odds of being recognized are the same as for Fame (R1), but the reaction is quite different. The character experiences hostility, prejudice, and intentional slights — in game mechanic terms, the character should have the difficulty of all interactions increased by at least +3.\n\nRestrictions/Notes: There is a reason for this negative attention.\n\nEither the character did something, is accused of having done something, or is suspected of having done something not particularly pleasant, or the character has, through other strange circumstances, earned a “bad rep.” Sometimes, this Infamy will help the character — but it shouldn’t help too much. If the character had a combination of Fame and Infamy, then maybe he’d earn a reputation like Wyatt Earp or Jesse James in the American Old West — certain people would look up to him or respect him, and there would be definite fear there most of the time, but there would also be a lot of people who would enjoy seeing the person leave or die. Of course, Infamy (R1) should be something minor — maybe the character is a former criminal, or he did something questionable in the past and was cleared. People are not overtly hostile, but they are unfriendly when they recognize him.\n\nSeveral ranks of Infamy can only be selected if the character is infamous for multiple reasons — but the effects should be cumulative, and this can only be done if the gamemaster thinks it is appropriate (a character with Infamy (R3) would hardly have to worry about Infamy (R1) in most cases, so it would not be a proper combination)."
+    },
+    {
+      "id": 3100,
+      "name": "Infamy",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is, most likely, wanted for a crime of a fairly serious nature, or he did something (or is thought to have done something) in the past that makes him hated and reviled by most people. The rules are essentially the same as for Infamy (R1) and the recognition chances are similar to Fame (R2), but the modifier to interactions should be, usually, at least +6.\n\nRestrictions/Notes: As stated under Infamy (R1), unless combined with Fame, this Disadvantage only allows for the negative aspects of notoriety. A character who has Infamy (R2) world be considered by nearly everyone (but not everyone) to be “scum” and someone who “deserves no better than he gets.” When combined with an equal or higher rank of Fame, there is often that “fear and respect” option — many characters will still try to betray or hurt the character in some way, but most won’t be that open about it."
+    },
+    {
+      "id": 3200,
+      "name": "Infamy",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character has trouble going out in public because a lot of people hate her to the point of violence. Chances are good that, if she fails an interaction (with a +9 to the difficulty), the other person will drive her away. The player could select Enemy (R1) in addition to this Disadvantage to reflect those hunting her. However, the character could use disguises and avoid populated areas. Most likely, the character has to move around until she can “live down” her infamy (if ever) or until she dies.\n\nRestrictions/Notes: See Infamy (R1) and Infamy (R2)."
+    },
+    {
+      "id": 3300,
+      "name": "Language Problems",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character does not understand the language of the area she spends most of her time in. She must learn skill pips in the specialization languages: (local language). She also receives a +6 difficulty modifier in addition to any other modifiers for what she’s attempting to convey or understand.\n\nRestrictions/Notes: The character cannot begin the game with more than one pip in languages: (local language), but she may improve the skill at the cost at +2 to the cost. However, the character should speak another language in the game setting fluently."
+    },
+    {
+      "id": 3400,
+      "name": "Learning Problems",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "When the character attempts to learn a new skill, or improve an old one, he does so at +2 per rank to the Character Point cost. Alternatively, the character can only learn or improve a skill if she attempts it and fails.\n\nA character should have to fail with a single skill at least three times per adventure before being allowed to learn or improve the skill.\n\nThis Disadvantage is associated with a single attribute, and it applies to specializations. There should be some sort of reason for this in the character’s background, such as a lack of education or difficulty reading.\n\nRestrictions/Notes: This is the counterpart to the Quick Study Special Ability, and it should be treated in much the same way. This Disadvantage can be taken multiple times and for a different attribute."
+    },
+    {
+      "id": 3500,
+      "name": "Poverty",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Since characters who adventure tend to accumulate wealth, this Disadvantage is only available at Rank 1. The character begins the game with the shirt on his back and, maybe, a few pieces of cheap and substandard equipment. The character should also have the attitude of someone who is “poor,” whatever that might be in the game setting. If using Funds as an attribute, this Disadvantage subtracts 10 from relevant totals.\n\nRestrictions/Notes: As an excellent combination, this Disadvantage could be selected with Debt or Price to make the situation more realistic. Poverty can only be selected once."
+    },
+    {
+      "id": 3600,
+      "name": "Prejudice",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is of a minority group — or maybe it is just the character himself — that is subject to prejudice and discrimination. The character receives modifiers to the difficulties (from +2 to +4) during normal interaction with characters not of the minority group, and is generally treated unfairly by society. The group the character belongs to, or the reason he is discriminated against, should be identified immediately, and the player should know how he can expect to be treated in most cases.\n\nRestrictions/Notes: The gamemaster has to be careful with this one. Roleplaying prejudice is not often something players want to get into, and it can be especially uncomfortable in a real world or similar setting. When used in a setting where there are many different sapient species, however, it can be quite interesting — especially if there are several characters in the group who are prejudiced against."
+    },
+    {
+      "id": 3700,
+      "name": "Prejudice",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The minority group the character belongs to is oppressed. The character experiences disparity virtually every day. While other characters of the same minority group may not actually experience this prejudice (that is, they didn’t select this option), it is probably because they aren’t in positions where this discrimination can be easily practiced.\n\nRestrictions/Notes: The character often experiences discrimination and most interactions are performed at a +3 to +6 to the difficulty.\n\nThis prejudice should be roleplayed at every opportunity. However, gamemasters and players should only use this Disadvantage when both sides are comfortable with using it in a pretend situation (see Bigotry and Prejudice for more information). "
+    },
+    {
+      "id": 3800,
+      "name": "Price",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "This is a Disadvantage similar to Advantage Flaw. But, instead of there being something wrong with the character’s Advantage or a set of three related skills, there is a “price tag” attached. Every time the character wants to use the ability, he has to pay a Price at least a few times during the adventure to continue using the ability.\n\nThe Price might be an actual fee and a significant one at that. If the fee isn’t paid, the Advantage goes away until the price can be paid. But this won’t work for many Advantages (at least not in an interesting manner), so there are other ways to do it.\n\nMost likely, the Price will be a roleplaying effect. Maybe every time a Contact does a favor for a character, he not only demands the normal, negotiated recompense (if any), but the character must do a favor of equal importance for the character. Or, whenever a piece of Equipment is used, parts of it need replacing or servicing by a specialist (who may charge a high fee or ask a favor), most likely after the adventure.\n\nOne more suggestion for Price (R1) would be that the character has to pay one Fate Point or three Character Points at the end of an adventure to “pay for” the use of the Advantage or skills. This reflects the fact that the use of the Advantage takes something out of the character when it is used.\n\nRestrictions/Notes: The Price should be fairly easy to meet, but it should take some work. At this rank, it should be something that the character can roleplay along with an adventure or resolve between short adventures or parts of longer adventures (like paying off the recipient of the Price). However, if the character does not pay the Price, the Advantage does go away — and, if in the gamemaster’s opinion the character does this too often, both the Advantage and the Price should go away permanently. Price can be taken often at various ranks, and the same Price can be linked to more than one Advantage — though, unless the Price is actually double (the character has to pay the same price twice as often), it only counts as one Disadvantage."
+    },
+    {
+      "id": 3900,
+      "name": "Price",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The Price for using a particular Advantage, or group of Advantages or set of three related skills, is much higher than mentioned in Rank 1, but the rules are the same. Contacts will be extremely hard to pay off or do favors for — maybe an entire short adventure has to be devoted to paying back a contact who helped out. Optionally, paying two Fate Points or six Character Points at the end of an adventure where the Advantage was used is a quick way of paying the price.\n\nRestrictions/Notes: See Price (R1)."
+    },
+    {
+      "id": 4000,
+      "name": "Quirk",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character suffers from a personality quirk that makes certain types of roleplaying and interaction more difficult. This quirk could simply be a habit or an affectation that has gone too far, or it could be a minor psychological problem. Some examples include:\n\nDependency: The character has a slight dependency on a substance or even a roleplaying event. The character might be a pack-a-day smoker who, if he doesn’t get a cigarette at least once every few hours of game time, he gets irritable and loses Critical Success rerolls during interactions. Or maybe the character always has to have the last word in any situation and will often beat an argument into the ground rather than “lose.”\n\nKleptomania: When in a store or surrounded by small, portable items, the character will occasionally try to “lift” something. When possessed by his Quirk (see rules below), the character suffers +3 to the difficulty of sleight of hand, lockpicking, or related attempts at theft because he really doesn’t know he’s doing it.\n\nIndecision: The character does not like making decisions and will delay making them. When roleplaying, the player should actively participate in group discussions, but he should be wishy-washy and indecisive at critical moments.\n\nStutter: When under pressure, relaxed, nervous (such as failing a skill roll), or some other fairly common “mood” hits the character, he stutters. The upshot is the character suffers +3 to the difficulty of any interaction at this time and player should roleplay having a hard time getting his ideas across to the other players. This lasts until the player rolls a Critical Success.\n\nRestrictions/Notes: Good roleplayers will have fun with these, and other, Quirks that they come up with. Indeed, this Disadvantage is often more fun to play than many Advantages — but the gamemaster should make certain it is being roleplayed. Whenever the gamemaster thinks it appropriate, he should make the player generate a willpower or Spirit total against a base Moderate difficulty to “indulge” in his Quirk automatically (that is, “suffer” for it). The negative effects of the Quirk immediately come into play. Also, if the character repeatedly makes this roll, resisting the impulses of the Quirk, the gamemaster should start modifying the difficulty upwards until the character fails.\n\nMultiple Quirks can be selected.\n\nThe gamemaster may allow multiple inclusions of the same version of this Disadvantage, with all modifiers cumulative and an increase by +5 per inclusion to the willpower difficulty.\n\nAdditional Note: Some players may choose to have their characters roleplay Quirks they already have or might like to play. Sometimes this works, sometimes it doesn’t. It can be hysterical to have a player “steal” dice out from under another player’s nose (symbolizing the fact that the character is taking necessary items away from the other player’s character) as long as things don’t go too far (that is, when people start getting upset). However, players who are “indecisive” should not play characters who are indecisive — since they would be anyway. This is too much like getting a Disadvantage for nothing."
+    },
+    {
+      "id": 4100,
+      "name": "Quirk",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The rules for Quirk (R2) are the same as for Quirk (R1), only the chance of occurrence is much greater and the effects are larger.\n\nDependency: The character needs to fulfill his dependency much more often (once a scene, perhaps). The character also experiences one automatic Critical Failure per scene that he doesn’t (a smoker might have a coughing fit in the middle of a tense negotiation or during a stealth attempt, for example).\n\nSecret: There’s something about the character that she needs to hide. If it were discovered, it would put her friends, family, and even her own life at risk. This could be a civilian identity (if she has a heroic alter ego) or a skeleton in the closet.\n\nRestrictions/Notes: The difficulty of resisting the “impulse” is now Difficult, but all other rules are the same as under Quirk (R1)."
+    },
+    {
+      "id": 4200,
+      "name": "Quirk",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "These “personality quirks” are much more serious. The character might be a junkie, a psychotic with a certain type of behavior, or has a severe phobia (he’s deathly afraid of something). Some examples: Dependency: The character is a junkie, always after a “fix.” The “fix” might be an illegal substance, or a perfectly normal one, or even a type of roleplaying interaction (maybe the character has to try to come as close to dying as he can).\n\nParanoid: The character trusts no one. He receives a +6 to the bonus number when trying to resist being conned, but he also receives this “bonus” when trying to be persuaded — and he must be persuaded before he’ll help even his closest friends. “Everyone is out to get him.” Phobic: The character is deathly afraid of something. It could be heights, open spaces, spiders, or another character. Unless the character makes his willpower roll (below), he dissolves into terror.\n\nVengeful: The character cannot stand to “lose” or be “wronged.” If the character perceives herself as looking foolish (or whatever), she will go to great lengths to get even (in reality, the character probably takes it too far).\n\nRestrictions/Notes: The character has Very Difficult Spirit or willpower roll to make to overcome the Quirk — at the least. If, in the gamemaster’s judgment, there is a reason the character should have modifiers to the difficulty, then he will. Players who don’t want to play a character that can frequently lose control should avoid this option.\n\nOther rules are the same as under Quirk (R1)"
+    },
+    {
+      "id": 4300,
+      "name": "Reduced Attribute",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "Something about the character’s species, age, physical condition, or some other factor has permanently reduced one attribute by one pip.\n\nThe character may not reduce the attribute die code below 1D, and the attribute die code may never be increased by spending Character Points (though gaining a Special Ability would help).\n\nRestrictions/Notes: The reduction in die code increases by one pip for each additional rank taken in this Disadvantage. (Remember that three pips equal one die.) The character may have different variations on this Disadvantage for each attribute, including Extranormal attributes. Only one rank may be taken with an Extranormal attribute of 0D, and the character’s species must be required to take at least 1D in the affected attribute. Characters who have this Disadvantage on an Extranormal attribute before having any die code in that attribute may never take that Extranormal attribute."
+    }
+  ],
+  "specialAbilities": [
+    {
+      "id": 100,
+      "name": "Accelerated Healing",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character gains a +1D per rank to his Strength for all natural healing attempts, and a Critical Failure is treated as 1, rather than having a negative effect on the die roll."
+    },
+    {
+      "id": 200,
+      "name": "Ambidextrous",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is equally adept with her right or left hand. She may perform an action with each hand in the same round, and, though she takes the multi-action penalty, she receives a +1 per rank to each skill total. The actions must involve the hands and each action must require only one hand. If the character performs only one hand-related action in a round, she does not get the bonus. Some skills that characters could employ with either hand include brawling, sleight of hand, firearms, throwing, lift, artist, forgery, and the map-making aspect of navigation, though, of course, not every task covered by each skill is relevant. A character may take multiple ranks of this Special Ability for two pairs of hands and multiple ranks for each additional manipulative limb."
+    },
+    {
+      "id": 300,
+      "name": "Animal Control",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "This gives the character the ability to control one particular species of animal, bird, or insect. The character gets a +10 bonus to her survival: animal handling total for that species. She must generate a survival: animal handling versus the Knowledge or willpower of the animal (more than one animal can be targeted, although this is a multi-action). If the character gets a high enough success (Game Master’s decision), the animal is controlled for a number of minutes equal to the survival: animal handling skill total times 10. A controlled animal serves its master faithfully, even sacrificing itself on her behalf. The Special Ability has a range of sight or voice. The character may gain one more species for each rank.\n\nNote: A swarm of insects counts as one animal, as does a school of small fish. Any creature with a Knowledge die code of less than 2D could be considered an animal, unless the Game Master says otherwise."
+    },
+    {
+      "id": 400,
+      "name": "Armor-Defeating Attack",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "When a character with natural weapons (the character’s fists, claws, teeth, etc.) attacks someone protected by armor, this ability negates the Armor Value, up to +1D per rank. The character must specify how the attack negates the armor: an acidic mist slips through any openings, nanotech claws reach directly to the flesh, and the like. There should be at least one type of armor that is unaffected by this."
+    },
+    {
+      "id": 500,
+      "name": "Atmospheric Tolerance",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can breathe one form of atmosphere (gas or liquid) that would be lethal to most other characters. A character may not have more than one rank in this ability, but he may have different versions for different atmospheres."
+    },
+    {
+      "id": 600,
+      "name": "Attack Resistance",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is highly resistant to a certain type of attack. She gains +1D per rank to her damage resistance total against this type of attack.\n\nEnergy Attacks: Resistant to blasts of heat, fire, electricity, radiation, light, cold, and so on, but not the ability to survive in extremes of such environments.\n\nExtranormal Attack: Resistant to damage from any Extranormal based (such as Metaphysics) attack.\n\nMental Attacks: Resistant to mental harm from any source. It does not provide protection against interaction attempts."
+    },
+    {
+      "id": 700,
+      "name": "Attribute Scramble",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can adjust an opponent’s (or a friend’s) attributes temporarily. She gains the scramble skill at +1 per rank in a single version of this Special Ability (it is a Perception skill, described only here), which she also can increase as a normal skill. The scrambler must pick as her focus either physical or mental attributes, though never Extranormal, Funds, or Special Abilities. (Physical attributes encompass Agility, Strength, and Mechanical. Mental attributes include Knowledge, Perception, and Technical.) She only may do both by taking this Special Ability once for each version.\n\nWhen she goes after a target with an brawling roll, she may choose (as a multi-action) to also perform a scramble attack versus a roll of her target’s willpower or Knowledge. (This is not an action for the target.) No close combat attack is necessary for a willing target, though the willpower or Knowledge must still be made. However, the act of scrambling still counts as an action.\n\nIf the scrambler’s total is higher (not equal to), she may shift her target’s attribute points around, within certain limits. The close combat attack does no damage.\n\nShe may increase one or more related attributes by a number equal to the amount she takes away from other related attributes — but she may not decrease or increase any one attribute by more than 2D (6 pips). The change lasts for a number of rounds equal to the difference between the scramble attack and the target’s willpower or Knowledge. A character who has been adjusted cannot be scrambled again until the original adjustment wears off."
+    },
+    {
+      "id": 800,
+      "name": "Blur",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can appear indistinct to the naked eye or most visual aids (binoculars, cameras, etc.). Commonly, a character with this Special Ability will only be spotted out of the corner of the eye. This adds 1 to the character’s dodge, sneak, and hide totals, as well as +1 to all default search, investigation, and attack diﬃculties against the character that the blurring character is not actively trying to defeat. (These modifiers are per rank in this Special Ability.) On the character’s turn, she may automatically become blurry, without taking an action, and remain so until she chooses otherwise. Blurring also makes it diﬃcult for the character to hold a conversation with others."
+    },
+    {
+      "id": 900,
+      "name": "Combat Sense",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can sense danger. She is never surprised. Rather, she and her attacker must determine initiative as normal. Even if the attacker still goes before the character does, any combat modifier from the surprise is reduced by 2. A character may not have this ability more than once."
+    },
+    {
+      "id": 1000,
+      "name": "Confusion",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can hamper the thoughts of those he comes into physical contact with, at will. He gains the confuse skill at +1 per rank (it is a Perception skill, described only here), which he can increase as normal. As a multi-action with a brawling attack, he may also perform a confusion attack versus his target’s willpower or Knowledge. (This is not an action for the target.) If his total is higher (not equal to), the target is confused. Characters may not play cards (if the Game Master is using game-enhancing cards with the adventures) or spend points, and they receive a +5 diﬃculty modifier to even simple actions for a number of rounds equal to two times the rank of this Special Ability."
+    },
+    {
+      "id": 1100,
+      "name": "Darkness",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can project a field of darkness around himself, adding +5 per rank to the diﬃculty of any sight-based skill totals. The field extends in a half-sphere around the character with a radius equal to one meter per rank. The field can be maintained for a maximum of one minute per rank before dispersing."
+    },
+    {
+      "id": 1200,
+      "name": "Elasticity",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can stretch, elongate, and compress his body, allowing him to expand his height or become so narrow he can pass through keyholes, cracks, or any other opening he could normally see through. It takes one round or more to slip through small openings, depending on their depth. The character gains +1 per rank to acrobatics, dodge, or sleight of hand totals, in addition to con totals when using that skill to disguise his own appearance."
+    },
+    {
+      "id": 1300,
+      "name": "Endurance",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has great endurance, and gains a +3D per rank to Strength or stamina checks when performing taxing physical tasks (such as holding one’s breath underwater for a long period or running a long distance)."
+    },
+    {
+      "id": 1400,
+      "name": "Enhanced Sense",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "One of the character’s five senses is heightened to abnormal levels. The bonus to the skill total received depends on the sense: sight is +1; hearing is +2; touch, taste, or smell are +3. The bonus is per rank and applies to all skills related to the sense. To have multiple enhanced senses, this Special Ability must be taken at least once for each sense."
+    },
+    {
+      "id": 1500,
+      "name": "Environmental Resistance",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is resistant to extremes of heat, cold, and pressure and gains a +3D per rank to Strength or stamina checks to resist ill effects from these environmental conditions. The character is not resistant to heat or cold attacks, as these come and go too quickly for the Special Ability to provide protection."
+    },
+    {
+      "id": 1600,
+      "name": "Extra Body Part",
+      "displayNote": null,
+      "rank": 0,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has an extra limb or organ. If external, these may be secondary arms or legs, a tail, or some more exotic bodily addition, such as fins, tentacles, or antennae. If internal, the parts are organs such as extra eyes, hearts, or mysterious glands. Unless specified by a Disadvantage or Limitation, the extra parts are included in the hero’s body tastefully. Additionally, except in cases where the character has an Enhancement or another Special Ability that uses this one (for example, Extra Body Part: Tail and Natural Hand-to-Hand Weapon: Tail), the extra part is nonfunctional. A character may have only one rank in this Special Ability, but she may have multiple versions to represent multiple additional organs or limbs."
+    },
+    {
+      "id": 1700,
+      "name": "Extra Sense",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can detect something that a normal Human cannot, such as changes in pressure, seismic activity, radiation fluctuations, and so on. She gains a +1D to her search rolls in attempting to detect the specific energy or environmental change and +1D to her investigation rolls in figuring out source or other relevant information. The Game Master may also allow a +1 skill total bonus to other activities that would benefit from whatever the extra sense can detect. All modifiers are per rank in this Special Ability."
+    },
+    {
+      "id": 1800,
+      "name": "Fast Reactions",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character gains +1D per rank to his Perception when determining initiative, and, for up to three times during the adventure, he may receive one additional action for one round."
+    },
+    {
+      "id": 1900,
+      "name": "Fear",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can provoke fear in those who can see or hear him. He gains a +1 per rank to all intimidation totals and combat defense diﬃculties against those so affected. The willpower or Knowledge difficulty to resist a Fear attack is 15."
+    },
+    {
+      "id": 2000,
+      "name": "Flight",
+      "displayNote": null,
+      "rank": 6,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can fly, either by nature or by virtue of having wings. The character’s flying rate equals his base Move times 2 times the number of ranks. The flying/0-G skill is required to maneuver."
+    },
+    {
+      "id": 2100,
+      "name": "Glider Wings",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can fly by drifting with air currents, provided there is suﬃcient wind. The Game Master decides how much wind there is available and how fast it moves the glider. Characters with this Special Ability need the flying/0-G skill to control their passage. A character may not have this ability more than once."
+    },
+    {
+      "id": 2200,
+      "name": "Hardiness",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can take damage better than normal. She add 1 per rank to her damage resistance total against any type of damage."
+    },
+    {
+      "id": 2300,
+      "name": "Hypermovement",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is extremely fast, adding +2 meters per round per rank to her base Move rate, which in turn affects all other types of movement."
+    },
+    {
+      "id": 2400,
+      "name": "Immortality",
+      "displayNote": null,
+      "rank": 7,
+      "multipleRanks": false,
+      "totalRanks": 1,
+      "description": "The character is immortal, though she will grow older, at a decreased pace compared to the rest of her species. If she is reduced to zero Body Points, she doesn’t die. She will not go unconscious or bleed to death (as mortally wounded characters do), but she will not heal without psionic or similar special aid or the Accelerated Healing Special Ability — her arms could be blown off, her abdomen eviscerated, or whatever. She may perform only the most minimal of physical actions, such as squirming, and some actions may be impossible. She may rely on her Agility for initiative purposes only.\n\nThere should be one particular set of circumstances whereby the character will die forever. These sets of circumstances should not be too unusual — killed directly by an Extranormal blast, drowning decapitation, and so on are all good examples.\n\nA character may not have this ability more than once."
+    },
+    {
+      "id": 2500,
+      "name": "Immunity",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is highly resistant to disease and poisons and receives a +1D per rank to Strength or stamina checks when determining whether he has contracted an illness or suffering from ingested poisons."
+    },
+    {
+      "id": 2600,
+      "name": "Increased Attribute",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "Some extraordinary training or physiological trait allows the character to gain +1 bonus per rank to all rolled totals related to that attribute. (For Strength, this also includes the damage resistance total and Strength Damage.) A character may have multiple ranks of this Special Ability, as well as multiple versions of it.\n\nNote: To get another rank in this Special Ability after character creation costs 4 times the number in front of the “D” of the attribute that it affects plus the number of ranks currently in the Special Ability. (This is instead of the normal cost to increase Special Abilities.)"
+    },
+    {
+      "id": 2700,
+      "name": "Infravision/Ultravision",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character gains the ability to see in the dark using either infravision or ultravision. Infravision allows the character to see changes in heat, while ultra-vision enables the character to make the most of the available light. Each provides a +2 per rank in a single version of this Special Ability to sight-based rolls while in dim or dark conditions. Obviously, extreme heat or bright light (including daylight) prevent this Special Ability from working."
+    },
+    {
+      "id": 2800,
+      "name": "Intangibility",
+      "displayNote": null,
+      "rank": 5,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can reduce his physical density to virtually zero for one minute per rank. During that time, his damage resistance score against physical and energy attacks is +3D per rank, but his movement rate is halved. An intangible character can pass through solid objects, providing they do not contain wards or other spells of protection designed to repel passage of this nature. He may not pass through energy or electrified barriers. While intangible, the character cannot carry any object along (including clothing), nor can he attempt any physical attack. It takes a full round for a character to become intangible or solid, during which he can do nothing else. The character must spend at least one minute solid before attempting intangibility again."
+    },
+    {
+      "id": 2900,
+      "name": "Invisibility",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can become transparent. This adds 1 per rank to the character’s dodge, sneak, and hide totals, as well as +1 per rank to all default search, investigation, and attack diﬃculties against the character that the invisible character is not actively trying to defeat. Additionally, no character may take an action to “spot” the character unless the Game Master feels there is suﬃcient provocation, such as brushing against others or removing something in a crowded area. The invisibility covers the character’s basic clothes only — not any gear she’s carrying, or anything she picks up. Also, remember that the character is transparent when invisible — she can’t hide things behind her back."
+    },
+    {
+      "id": 3000,
+      "name": "Iron Will",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is highly resistant to all interaction attempts and mental attacks. The character gains a +1D per rank to all willpower rolls and +2 to the standard diﬃculty of any such attempts against this character."
+    },
+    {
+      "id": 3100,
+      "name": "Life Drain",
+      "displayNote": null,
+      "rank": 5,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "This ability allows the character to drain attribute pips, Body Points, or Wounds from his target. The character must choose one set of attributes to target, either physical (Agility, Mechanical, Strength), mental (Knowledge, Perception, Technical), Wounds, or Body Points. For example, most vampires drink blood, and thus lower Body Points, while succubi target the soul and so weaken mental attributes. The player must specify in what manner the character drains these attributes (biting the neck, hypnosis, or another means). It should involve some sort of successful attack result (either physical or mental).\n\nWhen the character wishes to employ Life Drain, he makes an attack on his target using the relevant skill. For every four points over the target’s defense roll, the character drains one pip per rank off each of the target’s relevant attributes or three points per rank from the character’s Body Points or one Wound for every two ranks. (Remember that there are three pips in each die.)\n\nIf any of the target’s attributes or Body Points ever go to zero (or the character reaches the Dead Wound level), the target goes into a coma. She may try once per day to wake up by making a successful Moderate stamina or Strength roll. She regains one attribute point (to each attribute affected) every hour after the attack. Body Points and Wound levels return at the normal rate.\n\nFor each attribute pip the character drains, he may add one pip to any attribute in his chosen category. He would get one Body Point for each Body Point drained or one Wound for each Wound drained. Life-Drained attributes and unused Body Points or Wounds disappear at a rate of one pip or point per hour.\n\nA character may have multiple ranks of this Special Ability, as well as multiple versions of it."
+    },
+    {
+      "id": 3200,
+      "name": "Longevity",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character lives longer than the average Human. Often, this Special Ability has a Flaw attached that governs what the character must do to maintain his life. The character should gain peripheral bonuses during game play because of his “longer outlook.” A character may not have this ability more than once."
+    },
+    {
+      "id": 3300,
+      "name": "Luck, Good",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character is blessed with unusually good luck. Once per adventure, a character with Good Luck can receive one of the following benefits just by asking for it: action, breakthrough, haste, or second chance. See the “Luck Benefits” sidebar for details on each of these options. Calling upon one’s luck does not count as an action.\n\nGood Luck can only be declared once per rank during a particular adventure, but it may be declared at any time, and it cannot be cancelled by any other effect. A character may have up to two ranks of this Special Ability."
+    },
+    {
+      "id": 3400,
+      "name": "Luck, Great",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "A character with Great Luck can call on one of the following benefits once per adventure per rank: action, alertness, breakthrough, haste, hero, opponent fails, or second chance. See the “Luck Benefits” sidebar for details on each of these options. Calling upon one’s luck does not count as an action.\n\nIf the character has not used his Great Luck during an adventure and something really disastrous happens, the Game Master may choose to counteract the effects and temporarily “burn out” the character’s Special Ability — that is, the character’s Great Luck has been used up for the adventure. Usually, this is used when the character does something stupid or the player is the victim of incredibly bad luck — die rolling, not the Disadvantage — and something “stops” the effect. This is a “last ditch,” Game Master-controlled effort when circumstances get out of control. It is also a nice thing for inexperienced roleplayers to have — just in case they do something they really shouldn’t have, they get another chance. Example: The character’s mission is to turn off the power at a nuclear plant or it will explode and destroy the city that’s conveniently downwind. Unfortunately, the character takes too long fighting the minions of the bad guy who set the plant to overload, and, according to the rules, the whole city should go up in a radioactive fireball. The character is too late. The Game Master might choose to have the character be really lucky — the villain was bluﬃng, and there’s really more time on the clock than anyone thought, or the power plant begins a long meltdown procedure instead of exploding. In any case, the character’s Good Luck is gone for this adventure (his luck ran out), but he has a chance of averting disaster.\n\nAs with Good Luck, the character may have up to two ranks of this Special Ability."
+    },
+    {
+      "id": 3500,
+      "name": "Master of Disguise",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has a natural talent for disguise. She gains a +5 per rank bonus to con totals when using that skill to disguise herself and a +1D bonus per rank to any con, intimidation, or persuasion actions while in that disguise."
+    },
+    {
+      "id": 3600,
+      "name": "Multiple Abilities",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has multiple minor abilities that improve a few different tasks. All bonuses are added to the skill or attribute total, not to the die code. The bonuses should be fairly limited in their applications, pertaining to specific uses of particular skills (like specializations do), but there can be several of them for each selection of this Special Ability. The maximum total bonus for each rank is +4.\n\nExample: A character could have “eyestalks” that give him a +1 bonus to Perception or search totals that would negate surprise, the ability to focus his ears on particular types of noises (+1 bonus when listening for particular sounds), and fingers that are sensitive to subdermal motion (+1 bonus to sleight of hand against safes with moving tumblers)."
+    },
+    {
+      "id": 3700,
+      "name": "Natural Armor",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has plates, toughened skin, scales, or something similar. His own surface adds 1D per rank to his damage resistance total to physical (not mental) attacks and contact poisons, corrosives, or similar materials."
+    },
+    {
+      "id": 3800,
+      "name": "Natural Hand-to-Hand Weapon",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has some sort of natural weapon — such as claws, pincers, bone spikes, or stinger — that add 1D per rank to his Strength Damage when determining his damage with the natural weapon. The character uses brawling to attack, unless he can detach the weapon from himself or (in the case of a super-scientific weapon) its exists separately. In these latter cases, the character employs melee combat to wield it."
+    },
+    {
+      "id": 3900,
+      "name": "Natural Ranged Weapon",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has some sort of natural ranged weapon, using missile weapons (for solid objects) or firearms (for energy, gas, or chemical projection or for solid projectiles in cybernetics or super-science weapons) to target it. Long range equals 20 times the number of ranks in this Special Ability times the character’s Strength, lift, or firearms (as appropriate) in meters. The damage for physically enhanced projections is the character’s Strength Damage plus 1D per rank, while the damage for all other types of blasts is 3D per rank. The projection must have a visible effect (such as bone shards or a glowing ray) and it may not do mental damage. Note that, regardless of the nature of the projection, there are no additional effects from this type of Special Ability unless an Enhancement allows otherwise."
+    },
+    {
+      "id": 4000,
+      "name": "Omnivorous",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can gain nourishment from any organic substance (though she is not immune to poisons). She can also chew through just about any organic substance with no adverse effects to her teeth or jaws. A character may not have this ability more than once."
+    },
+    {
+      "id": 4100,
+      "name": "Paralyzing Touch",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can freeze her target with the merest touch. When she makes a brawling attack, she may, instead of doing damage, paralyze her victim, who remains that way until he makes a successful Knowledge or willpower roll against the brawling skill total. He may attempt to do so once per round; the only other actions he may take are mental-based ones and Extranormal (such as Metaphysics) or Special Ability ones that do not require movement.\n\nNote: Characters who are heavily armored or covered will be harder to hit. The Game Master needs to decide how much skin is exposed and adjust the attack diﬃculty accordingly.\n\nA character may not have this ability more than once."
+    },
+    {
+      "id": 4200,
+      "name": "Possession, Limited",
+      "displayNote": null,
+      "rank": 8,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can possess the body of a living creature or a corpse. The character must be within three times the rank of this Special Ability in meters of the target in order to take possession.\n\nPossessing a corpse doesn’t require a roll, but it does take an action. Possessing a living being involves making a Knowledge or willpower check by the possessor versus a standard interaction diﬃculty (see the “Mental Defenses” sidebar on page 85 for details). Exceeding (but not equalling) the diﬃculty means the target has been possessed. The target can actively defend if she is aware of the potential danger.\n\nTo gather knowledge about his host body’s life, the possessing character must generate a successful investigation total against the target’s Knowledge roll (this does not count as an action for the target). Information the possessor gains depends upon the level of success achieved; see the accompanying chart for details.\n\nWith Limited Possession, the character does not gain control of the new form. Instead, he must use persuasion, intimidation, or other interaction skills to convince his host to do what he wishes. Exiting a host body is commonly a simple action. As long as the possessing character exits before the host dies, he simply moves on to his own or another form. Killing a possessing spirit usually involves taking it completely by surprise with a killing blow to the host form or using a spell to force it to remain in the body until it can be slain."
+    },
+    {
+      "id": 4300,
+      "name": "Possession, Full",
+      "displayNote": null,
+      "rank": 10,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can possess the body of a living creature or a corpse. This works in the same way as Limited Possession, save that the possessing character gains her new form’s physical attributes (Agility, Mechanical, Strength), retains her own Extranormal and mental attributes (Knowledge, Perception, and Technical), and gains complete control over the new form.\n\n> Possession Knowledge Chart\n\nResult Points* Needed Knowledge Attained\n\n0 Basic information: target’s name, age, base of operations\n\n1-4 More personal information: target’s job, financial status, any current schedule\n\n5-8 More in-depth personal information: identities and backgrounds of family, friends, lovers\n\n9-12 Very personal information: secrets, private likes and dislikes, and so on\n\n13 Everything there is to know\n\n*Result points equal the difference between the investigation total and the target’s Knowledge roll."
+    },
+    {
+      "id": 4400,
+      "name": "Quick Study",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has an uncanny ability to learn new skills and improve old ones, limited to one attribute. He always learns new skills as if he had a teacher (even if he doesn’t), and he can improve skills he already knows at a cost of one Character Point less than normal. This Special Ability applies to specializations as well as combines very well with the Age Disadvantage, if the character is young — he is a prodigy, and that’s why he’s learned his starting skills so quickly. This Special Ability can be taken once for each attribute."
+    },
+    {
+      "id": 4500,
+      "name": "Sense of Direction",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character has a good sense of direction. He gains +1D per rank to navigation and search rolls."
+    },
+    {
+      "id": 4600,
+      "name": "Shapeshifting",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can manipulate the shape, color, and overall appearance of her body, though mass and body compositions remain the same. The character must chose a specific creature to emulate, gaining one form for every three additional points spent on this Special Ability. At six ranks in this ability, the Game Master may allow shifting among one class of creatures (such as birds or furniture) as long as all forms chosen for previous ranks were within the same class.\n\nBody Points, Wounds, and the Knowledge attribute remain unaffected by this Special Ability, but the dice in the Agility, Mechanical, Strength, Perception, and Technical are redistributed to match the new form. The minimum Mechanical and Technical for non-humanoid forms is 1D, because the shapeshifter retains some memory of these attributes. Additional dice in skills above the base attribute score remain the same, though the total dice in each skill changes to reflect the adjustments in the base attribute. Likewise, not all skills will be usable in the new form.\n\nAttribute dice can also be used to include Special Abilities in the new form. One attribute die can be spent to gain one rank in one Special Ability or to get a +2 skill total bonus (split among up to two skills). The Game Master may allow a larger skill total bonus or more skills to fall under the bonus if the desired effect is particularly narrow (such as a bonus for a single sense).\n\nFor an example of how Shapeshifting can work, see the accompanying sidebar.\n\nShapeshifting may be done at will, though a Limitation may force it to be triggered by stress or environmental factors.\n\nIf shifting voluntarily, the character must generate a willpower total of 11 to bring about the change, and a second total to turn back again. Each change takes one full round in which the character may do nothing else. Failure at the check means the transformation does not occur, and the character cannot try again for at least an hour.\n\nIt is highly recommended that the hero comes up with some typical forms and their game characteristics before beginning play. The new form need not exactly resemble a “typical” version of the emulated creature or object.\n\n> Shapeshifting Example\n\nMark is playing a wereleopard. He chooses Shapeshifting, specifying that he will only change from Human to leopard and back again. The Game Master decides he’ll gain one rank of the Hypermovement Special Ability (+2 to the movement rate) and +2 to all search totals that require smell when in his wereleopard form.\n\nMark’s character has 18 attribute dice arranged thusly:\n\n\tAGILITY 2D+2\n\n\tSTRENGTH 3D\n\n\tKNOWLEDGE 2D+2\n\n\tPERCEPTION 2D+2\n\n\tMECHANICAL 3D+1\n\n\tTECHNICAL 3D+2\n\nWhen he changes into wereleopard form, Mark’s character has the following attribute values, the total of which has been lowered by 2D because of the bonuses:\n\n\tAGILITY 4D\n\n\tSTRENGTH 3D+2\n\n\tKNOWLEDGE 2D+2\n\n\tPERCEPTION 3D+2\n\n\tMECHANICAL 1D\n\n\tTECHNICAL 1D"
+    },
+    {
+      "id": 4700,
+      "name": "Silence",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can move in complete silence. He gains +2D per rank to all sneak checks and a +1D per rank when attacking from behind."
+    },
+    {
+      "id": 4800,
+      "name": "Skill Bonus",
+      "displayNote": null,
+      "rank": 1,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "Skill Bonus represents a natural talent (a character with the Charismatic group might be “friendly and outgoing”), a particular knack (a character with the Ranged Combat group has a “keen eye”), years of devotion to a profession prior to beginning adventure, or the result of an extended life.\n\nThe character chooses a group of three related skills in which he gains +1 to the skill total of any action performed with those skills (or specializations of that skill). The skills need not be under the same attribute. The character may or may not actually have adds in those skills, and the Game Master must approve the fact that they are “related.”\n\nSome examples of skill groups include: Acting: bargain, con, persuasion Acute Balance: acrobatics, climb/jump, sneak Athletics: lift, running, throwing Charismatic: command, con, persuasion Close Combat: brawling, melee combat, dodge Investigative: investigation, search, streetwise Leadership: command, intimidation, persuasion Photographic Memory: languages, scholar, investigation Observant: gambling, investigation, search Ranged Combat: firearms, missile weapons, throwing\n\nPlayers may substitute other related skills for the ones listed in the groups above, or create their own groups as long as there is a common thread and the Game Master approves the grouping.\n\nThree specializations may replace one general skill, getting a +1 for three different specializations.\n\nExample: In the Close Combat group, a character might replace melee combat with three specializations — melee combat: knives, melee combat: swords, and melee combat: clubs. While this means the character gains no bonus for “general” melee combat activities (such as using an improvised weapon), he does have a more “detailed” group. This may be done for up to all three skills in the group, choosing six specializations instead of two skills or nine specializations instead of three skills. Additionally, the character acts as if trained in these skills even if he doesn’t have any additional pips in them, and so does not get the unskilled modifier. This Special Ability does not affect the cost of improving the related skills.\n\nGamemasters may allow a higher bonus for fewer skills (such as a set of two skills where one gets a +1 bonus and the other gets a +2 bonus, or a +3 bonus to a set of three specializations). However, the bonus per rank may total no more than +3.\n\nAt each additional rank, the player may increase the bonus by +1 for three of the skills affected by this Special Ability. A character may have different versions of this ability for different groups of skills, though the skills in each group may not overlap."
+    },
+    {
+      "id": 4900,
+      "name": "Skill Minimum",
+      "displayNote": null,
+      "rank": 4,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can select three related skills unaffected by any other sort of Special Ability and the character will always gain a minimum total of 3 times the number before the “D,” even if she rolls a Critical Failure.\n\nExample: If the player selects persuasion, con, and intimidation (all interaction skills) for her character, all of which she has at 4D, and she generates a less than 12, the total automatically becomes 12. That is the character’s minimum total.\n\nThe player may not select Skill Minimum for any skill that has any other Advantage or Special Ability tied to it. Also, the skills must be related in some way (see the Skill Bonus Special Ability for information on related skills). The character may only select general skills, but the specializations underneath that general skill are affected as well. This Special Ability may be selected only once for each group of skills."
+    },
+    {
+      "id": 5000,
+      "name": "Teleportation",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can move instantly to another place up to 10 meters per rank away. The character must see her destination clearly. In combat, this action takes an entire round. The character may take along whatever she can carry."
+    },
+    {
+      "id": 5100,
+      "name": "Transmutation",
+      "displayNote": null,
+      "rank": 5,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can alter his substance to something else, while retaining his form (such as a man who turns to stone). Characters with this ability may only shift into one specific substance, which the player must specify when his character gets the Special Ability. Generally, this substance gives the character distinct advantages. The player may select up to 4 points (not ranks) in other Special Abilities that relate to the chosen form, per rank in this Special Ability. (Thus, two Transmutation ranks means 8 points in other Special Abilities.) Natural Armor, Hardiness, and Environmental Resistance are common ones."
+    },
+    {
+      "id": 5200,
+      "name": "Uncanny Aptitude",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "This Special Ability is similar to the Skill Bonus Special Ability in that some sort of bizarre ability gives the character added bonuses to certain actions. However, instead of selecting a group of skills that the character gains a bonus to, the player and the Game Master work out circumstances where these abilities come into play. For instance, a character might gain a +1 bonus to all Agility-related skill totals when in sunlight.\n\nA character may have several variations of this ability, reflecting different bonuses. Each variation could have several ranks, with the bonuses adding to each other."
+    },
+    {
+      "id": 5300,
+      "name": "Ventriloquism",
+      "displayNote": null,
+      "rank": 3,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can throw her voice up to three meters away per rank. No skill roll is required to do this, but if it is part of a trick attempt, she receives a +2D bonus per rank to con and persuasion rolls."
+    },
+    {
+      "id": 5400,
+      "name": "Water Breathing",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character can breathe water and will not drown under water. She gains +1D per rank to all swim rolls because she doesn’t need to worry about drowning."
+    },
+    {
+      "id": 5500,
+      "name": "Youthful Appearance",
+      "displayNote": null,
+      "rank": 2,
+      "multipleRanks": true,
+      "totalRanks": 1,
+      "description": "The character looks much younger than she actually is and receives a +1D per rank to persuasion or con. In general, characters should not look more than 10 to 20 years younger than they are, regardless of the number of ranks, though Game Master discretion and common sense should rule here.."
+    }
+  ]
+}
